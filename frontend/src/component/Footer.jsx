@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <h1 className="text-center "> Thanks for finding us..! we will update this portal in future.</h1>
             <h3 className="text-center">
-              For technical update:{" "}
+              For technical update contact GSS alumni:{" "}
               <a className=" underline" href="https://manishmahato.info.np">
                 contact@msmahato.com.np
               </a>
