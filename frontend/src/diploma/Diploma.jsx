@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 import Warning from "../component/Warning";
+import Footer from "../component/Footer";
 
-const Home = () => {
-  document.title = "GSS || Gamvir Samudra Setu Secondary School";
+const Diploma = () => {
+  document.title = "Diploma at GSS";
   return (
     <>
       <Navbar />
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Diploma;
