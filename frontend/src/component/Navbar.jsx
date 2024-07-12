@@ -59,7 +59,7 @@ const Navbar = () => {
               </div>
             </div> */}
           </div>
-          <button className="btn hidden md:block ">Contact Us</button>
+          <button className="btn hidden md:block btn-success text-white ">Contact Us</button>
         </div>
       </div>
     </>

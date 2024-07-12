@@ -45,12 +45,13 @@ const PrincipalBanner = () => {
               <div className=" relative ">
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
                   <p className="flex text-sm uppercase  ">Listen to our principal</p>
+                  <p className="md:hidden font-extrabold">Nira Kumari Shrestha-2080</p>
                   <h2 className="mb-6 max-w-lg  font-light leading-snug tracking-tight text-3xl sm:leading-snug">
                     Every child deserves the opportunity
                     <span className="my-1 inline-block border-b-8 border-g4 bg-gray-50 px-4 font-bold">
                       to{" "}
                       <span className=" ">
-                        <ReactTyped strings={["shine brightly.", "learn fearlessly.", "develop their unique talents.", "overcome obstacles."]} loop={Infinity} backSpeed={40} typeSpeed={50} />
+                        <ReactTyped strings={["shine brightly.", "learn fearlessly.", "develop their unique talents.", "overcome obstacles."]} loop={2} backSpeed={40} typeSpeed={50} />
                       </span>
                     </span>
                   </h2>
