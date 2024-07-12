@@ -19,7 +19,7 @@ const Viewer = () => {
           />
         </svg>
       </div>
-      <span className="md:text-5xl text-xs flex flex-col absolute md:top-20  top-24 left-1 z-10  text-center text-white">
+      <span className="md:text-5xl text-sm font-bold flex flex-col absolute md:top-20  top-24 left-1 z-10  text-center text-white">
         71
         <span className="md:text-sm text-xs text-white left-6">years of excellence!</span>
       </span>
