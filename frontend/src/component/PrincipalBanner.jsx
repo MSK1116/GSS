@@ -29,7 +29,7 @@ const PrincipalBanner = () => {
           </div>
         </div>
       </section> */}
-
+      <hr></hr>
       <section className=" bg-gray-50">
         <div className=" relative   flex items-center justify-center overflow-hidden ">
           <div className="relative mx-auto h-full px-4  pb-20   md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
@@ -42,11 +42,11 @@ const PrincipalBanner = () => {
                   <img className=" hover:scale-105 transition-all duration-1000 rounded-md" src={NiraMam}></img>
                 </div>
               </div>
-              <div className=" relative ">
+              <div className="relative">
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
-                  <p className="flex text-sm uppercase  ">Listen to our principal</p>
-                  <p className="md:hidden font-extrabold">Nira Kumari Shrestha-2080</p>
-                  <h2 className="mb-6 max-w-lg  font-light leading-snug tracking-tight text-3xl sm:leading-snug">
+                  <p className="flex text-sm uppercase md:mb-3">Listen to our principal</p>
+                  <p className="md:hidden font-extrabold mb-8 md:mb-3">Nira Kumari Shrestha-2080</p>
+                  <h2 className="mb-6 max-w-lg font-light leading-snug tracking-tight text-3xl sm:leading-snug">
                     Every child deserves the opportunity
                     <span className="my-1 inline-block border-b-8 border-g4 bg-gray-50 px-4 font-bold">
                       to{" "}
@@ -99,6 +99,7 @@ const PrincipalBanner = () => {
             </svg>
           </div>
         </div>
+        <hr></hr>
       </section>
     </>
   );
