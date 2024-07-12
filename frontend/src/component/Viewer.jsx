@@ -6,8 +6,8 @@ import { Carousel } from "react-responsive-carousel";
 const Viewer = () => {
   return (
     <>
-      <div className="absolute -top-36 -left-28 overflow-hidden  z-0   ">
-        <svg className="w-96 z-0 h-full object-fill fill-yellow-400 " viewBox="0 0 500 670" xmlns="http://www.w3.org/2000/svg">
+      <div className="absolute md:-top-36 -top-28 -left-28 overflow-hidden  z-0   ">
+        <svg className="md:w-96 w-80 z-0 h-full object-fill fill-yellow-400 " viewBox="0 0 500 670" xmlns="http://www.w3.org/2000/svg">
           <ellipse
             style={{
               strokeWidth: 0,
@@ -19,12 +19,12 @@ const Viewer = () => {
           />
         </svg>
       </div>
-      <span className="text-5xl flex flex-col absolute top-20 left-1 z-10 text-center text-white">
+      <span className="md:text-5xl text-xs flex flex-col absolute top-20 left-1 z-10  text-center text-white">
         71
-        <span className="text-sm text-white left-6">years of excellence!</span>
+        <span className="md:text-sm text-xs text-white left-6">years of excellence!</span>
       </span>
 
-      <section className="overflow-hidden h-screen mt-10 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
+      <section className="overflow-hidden h-screen md:mt-10 mt-14 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h2 className=" text-3xl font-extrabold text-red-500 md:text-3xl">Shree Gamvir Samudra Setu Secondary School</h2>
