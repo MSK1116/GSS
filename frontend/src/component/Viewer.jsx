@@ -6,18 +6,12 @@ import { Carousel } from "react-responsive-carousel";
 const Viewer = () => {
   return (
     <>
-      {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
-
-      <section className="overflow-hidden mt-10 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
+      <section className="overflow-hidden h-screen mt-10 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">Shree Gamvir Samudra Setu Secondary School</h2>
+            <h2 className=" text-3xl font-extrabold text-red-500 md:text-3xl">Shree Gamvir Samudra Setu Secondary School</h2>
 
-            <p className="hidden text-gray-500 md:mt-4 md:block">
+            <p className=" mt-6  text-gray-500 md:mt-4 md:block">
               <span className=" font-semibold"> “सर्वोत्कृष्टता तर्फको प्रयत्न"</span>
               <br></br>
               Empowering young minds with knowledge, creativity, and the confidence to explore, grow, and succeed in their educational journey is key to fostering lifelong learning and achievement.
@@ -38,7 +32,7 @@ const Viewer = () => {
                 className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
                 alt="Image 1"
               />
-              <p className="legend mt-10">Legend 1</p>
+              <p className="legend mt-10">समुद्र भवन</p>
             </div>
             <div>
               <img
