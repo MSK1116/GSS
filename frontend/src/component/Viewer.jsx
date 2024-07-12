@@ -6,24 +6,6 @@ import { Carousel } from "react-responsive-carousel";
 const Viewer = () => {
   return (
     <>
-      <div className="absolute md:-top-36 -top-28 md:-left-28 -left-24 overflow-hidden  z-0   ">
-        <svg className="md:w-96 w-80 z-0 h-full object-fill opacity-70 md:opacity-85 fill-yellow-400 " viewBox="0 0 500 670" xmlns="http://www.w3.org/2000/svg">
-          <ellipse
-            style={{
-              strokeWidth: 0,
-            }}
-            cx="222.906"
-            cy="312.795"
-            rx="129.388"
-            ry="130.029"
-          />
-        </svg>
-      </div>
-      <span className="md:text-5xl text-sm font-bold flex flex-col absolute md:top-20  top-24 left-1 z-10  text-center text-white">
-        71
-        <span className="md:text-sm text-xs text-white left-6">years of excellence!</span>
-      </span>
-
       <section className="overflow-hidden h-screen md:mt-10 mt-14 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
@@ -43,7 +25,7 @@ const Viewer = () => {
           </div>
         </div>
         <div>
-          <Carousel dynamicHeight={true} showArrows={true} showThumbs={false}>
+          <Carousel dynamicHeight={true} autoPlay interval={3000} infiniteLoop={true} showArrows={true} showThumbs={false}>
             <div>
               <img
                 src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/294982712_1752018298481172_5948095007949087131_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZT5uHUOWnGEQ7kNvgEzF8Mb&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCaCIpS1j-_7stJ8PVrdj_sIxJcqA9P9CO7c-pFjcrGPg&oe=6696B1F7"
