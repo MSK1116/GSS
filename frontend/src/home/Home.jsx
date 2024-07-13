@@ -15,7 +15,7 @@ const Home = () => {
       <Sticker />
       <Viewer />
       <PrincipalBanner />
-      <Program />
+      {/* <Program /> */}
       <Footer />
     </>
   );

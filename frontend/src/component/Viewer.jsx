@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 const Viewer = () => {
   return (
     <>
-      <section className="overflow-hidden h-screen md:mt-10 mt-14 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
+      <section className="max-w-screen-2xl overflow-hidden h-screen md:mt-10 mt-14 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h2 className=" text-3xl font-extrabold text-red-500 md:text-3xl">Shree Gamvir Samudra Setu Secondary School</h2>

@@ -5,40 +5,16 @@ import NiraMam from "../../public/IMG_DIR/NiraShJPEG.jpg";
 const PrincipalBanner = () => {
   return (
     <>
-      {/* <section className="overflow-hidden p-8 bg-gray-50 sm:grid sm:grid-cols-2">
-        <img className=" rounded-md" alt="" src={NiraMam} />
-        <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-          <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl flex flex-col font-bold text-red-500 md:text-3xl">
-              Nira Kumari Shrestha <span className=" text-sm mt-1">(प्रधानाध्यापक-२०८०)</span>{" "}
-            </h2>
-
-            <p className=" text-gray-500 md:mt-4 md:block">
-              At our school, we believe in creating a nurturing environment where every student is encouraged to discover their passions, excel academically, and grow into confident, responsible individuals prepared to make a positive impact in our
-              community and beyond.
-            </p>
-            <div>
-              <p></p>
-              <p></p>
-            </div>
-            <div className="mt-4 md:mt-8">
-              <a href="#" className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <hr></hr>
-      <section className=" bg-gray-50">
-        <div className=" relative   flex items-center justify-center overflow-hidden ">
+      <section className="max-w-screen-2xl  bg-gray-50">
+        <div className=" relative flex items-center justify-center overflow-hidden ">
           <div className="relative mx-auto h-full px-4  pb-20   md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="flex flex-col justify-stretch  lg:flex-row py-16">
               <div className="relative hidden lg:mr-32 lg:block lg:w-1/2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="my-6 mx-auto h-10 w-10 animate-bounce rounded-full bg-white p-2 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
                 </svg>
-                <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
+                <div className="bg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
                   <img className=" hover:scale-105 transition-all duration-1000 rounded-md" src={NiraMam}></img>
                 </div>
               </div>
