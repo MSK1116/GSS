@@ -4,7 +4,7 @@ const Programcard = ({ items }) => {
   return (
     <>
       <div>
-        <article className="flex bg-white transition hover:shadow-xl">
+        <article className="flex bg-white transition hover:shadow-xl rounded-lg">
           <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
             <time className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900">
               <span>{items.info1}</span>
@@ -13,8 +13,8 @@ const Programcard = ({ items }) => {
             </time>
           </div>
 
-          <div className="hidden sm:block sm:basis-56">
-            <img alt="" src={items.thumb} className="aspect-square h-full w-full object-cover" />
+          <div className="hidden sm:block sm:basis-56 overflow-hidden">
+            <img alt="" src={items.thumb} className="aspect-square h-full w-full object-cover hover:scale-105 transition-all duration-700" />
           </div>
           <div className="flex flex-1 flex-col justify-between">
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
