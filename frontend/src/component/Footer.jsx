@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <Navigation />
         </div>
-        <h1 className=" flex flex-row">
+        <h1 className=" flex  flex-row">
           Crafted by GSS alumni:
           <a target="blank" href="https://www.manishmahato.info.np/">
             Manish Singh Mahato
@@ -62,13 +62,13 @@ const Footer = () => {
             Mahalaxmi Nagarpalika-2, Imdol, Lalitpur
           </p>
           <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
+          <span className=" flex flex-row text-center">
+            Crafted by:
+            <a href="https://www.manishmahato.info.np/" target="blanl">
+              Manish Singh Mahato
+            </a>
+          </span>
         </aside>
-        <span className=" flex flex-row">
-          Crafted by:
-          <a href="https://www.manishmahato.info.np/" target="blanl">
-            Manish Singh Mahato
-          </a>
-        </span>
       </footer>
     </>
   );
