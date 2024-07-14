@@ -34,7 +34,7 @@ const Apply_banner = () => {
             </div>
             <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
               <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-                <form enctype="multipart/form-data" method="POST" action="https://formsubmit.co/contact@msmahato.com.np">
+                <form encType="multipart/form-data" method="POST" action="https://formsubmit.co/contact@msmahato.com.np">
                   <input type="hidden" name="_subject" value="Application from GSS webpage"></input>
                   <input type="hidden" name="_template" value="table"></input>
                   <div className="mb-6">
@@ -203,7 +203,7 @@ const Apply_banner = () => {
                 <div>
                   <span className="absolute -top-10 -right-9 z-[-1]">
                     <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z" fill="#3056D3" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z" fill="#3056D3" />
                     </svg>
                   </span>
                   <span className="absolute -right-10 top-[90px] z-[-1]">
