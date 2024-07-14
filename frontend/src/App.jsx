@@ -6,6 +6,7 @@ import Neb from "./neb/Neb";
 import Diploma from "./diploma/Diploma";
 import Faculty from "./faculty/Faculty";
 import Contact from "./contact/Contact";
+import Apply from "./apply/Apply";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/diploma" element={<Diploma />} />
         <Route path="/faculty" element={<Faculty />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="/apply" element={<Apply />} />
       </Routes>
     </>
   );

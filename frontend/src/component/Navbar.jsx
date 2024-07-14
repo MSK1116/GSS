@@ -60,7 +60,9 @@ const Navbar = () => {
               </div>
             </div> */}
           </div>
-          <button className="btn  hidden md:block bg-emerald-600 hover:bg-emerald-700 transition-all border-none text-white ">Contact Us</button>
+          <Link to={"/contact"}>
+            <button className="btn  hidden md:block bg-emerald-600 hover:bg-emerald-700 transition-all border-none text-white ">Contact Us</button>
+          </Link>
         </div>
       </div>
     </>

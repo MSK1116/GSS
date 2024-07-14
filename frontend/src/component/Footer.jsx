@@ -22,10 +22,11 @@ const Footer = () => {
             <Link to={"/contact"}>
               <a>Contact us</a>
             </Link>
-
-            <a>About us</a>
+            <Link to={"/faculty"}>Faculty</Link>
             <a>Result</a>
-            <a>Apply</a>
+            <Link to={"/apply"}>
+              <a>Apply</a>
+            </Link>
           </div>
           <div className="flex flex-col  text-left">
             <h1 className=" text-blue-600 mb-4 text-[18px] ">Quick contact</h1>
