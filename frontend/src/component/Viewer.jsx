@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import img2 from "../../public/IMG_DIR/GamvirFull2.jpg";
 import img1 from "../../public/IMG_DIR/GamvirFull1.jpg";
 import img3 from "../../public/IMG_DIR/child1.jpeg";
+import { Link } from "react-router-dom";
 
 const Viewer = () => {
   return (
@@ -21,9 +22,9 @@ const Viewer = () => {
             </p>
 
             <div className="mt-4 md:mt-8">
-              <a href="#" className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400">
-                Apply Now
-              </a>
+              <Link to={"/apply"}>
+                <span className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400">Apply Now</span>
+              </Link>
             </div>
           </div>
         </div>
