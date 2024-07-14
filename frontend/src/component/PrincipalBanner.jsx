@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import NiraMam from "../../public/IMG_DIR/NiraShJPEG.jpg";
+import { Link } from "react-router-dom";
 
 const PrincipalBanner = () => {
   return (
@@ -39,12 +40,14 @@ const PrincipalBanner = () => {
                     <a href="/" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-600 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-blue-800 focus:outline-none md:mr-4 md:mb-0 md:w-auto">
                       Learn more
                     </a>
-                    <a href="/" aria-label="" className="group inline-flex items-center font-semibold text-g1">
-                      Know about faculty
-                      <svg xmlns="http://www.w3.org/2000/svg" className="ml-4 h-6 w-6 transition-transform group-hover:translate-x-2 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                      </svg>
-                    </a>
+                    <Link to="/faculty">
+                      <a aria-label="" className="group inline-flex items-center font-semibold text-g1">
+                        Know about faculty
+                        <svg xmlns="http://www.w3.org/2000/svg" className="ml-4 h-6 w-6 transition-transform group-hover:translate-x-2 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

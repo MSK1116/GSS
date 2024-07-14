@@ -4,6 +4,7 @@ import Primaryschool from "./primary/Primaryschool";
 import See from "./tosee/See";
 import Neb from "./neb/Neb";
 import Diploma from "./diploma/Diploma";
+import Faculty from "./faculty/Faculty";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/ble&see" element={<See />} />
         <Route path="/slc" element={<Neb />} />
         <Route path="/diploma" element={<Diploma />} />
+        <Route path="/faculty" element={<Faculty />} />
       </Routes>
     </>
   );
