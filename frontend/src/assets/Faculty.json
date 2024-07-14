@@ -5,7 +5,7 @@
     "post": "Former Principal",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "photo": "IMG_DIR/devmaharjan.jpg",
     "slider": "true"
   },
   {
@@ -14,7 +14,7 @@
     "post": "Principle",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/Nira.jpg",
+    "photo": "IMG_DIR/Nira.jpg",
     "slider": "true"
   },
   {
@@ -23,7 +23,7 @@
     "post": "Vice Principle",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "true"
   },
   {
@@ -32,7 +32,7 @@
     "post": "Vice Principle",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/sundarkc.jpg",
+    "photo": "IMG_DIR/sundarkc.jpg",
     "slider": "true"
   },
   {
@@ -41,7 +41,7 @@
     "post": "Teacher",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/suman.jpg",
+    "photo": "IMG_DIR/suman.jpg",
     "slider": "true"
   },
   {
@@ -50,7 +50,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -59,7 +59,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -68,7 +68,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -77,7 +77,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -86,7 +86,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -95,7 +95,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -104,7 +104,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -113,7 +113,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -122,7 +122,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -131,7 +131,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -140,7 +140,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -149,7 +149,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -158,7 +158,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -167,7 +167,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -176,7 +176,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -185,7 +185,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -194,7 +194,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -203,7 +203,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -212,7 +212,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -221,7 +221,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -230,7 +230,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -239,7 +239,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -248,7 +248,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -257,7 +257,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -266,7 +266,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -275,7 +275,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -284,7 +284,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -293,7 +293,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -302,7 +302,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -311,7 +311,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -320,7 +320,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -329,7 +329,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -338,7 +338,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -347,7 +347,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -356,7 +356,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -365,7 +365,7 @@
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -374,7 +374,7 @@
     "post": "School Nurse",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -383,7 +383,7 @@
     "post": "Staff",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -392,7 +392,7 @@
     "post": "Assistnat Staff",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -401,7 +401,7 @@
     "post": "Assistnat Staff",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -410,7 +410,7 @@
     "post": "School Gaurd",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false"
   },
   {
@@ -419,7 +419,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -429,7 +429,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -439,7 +439,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -449,7 +449,7 @@
     "post": "Teacher, CTEVT",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -459,7 +459,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -469,7 +469,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -479,7 +479,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -489,7 +489,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -499,7 +499,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -509,7 +509,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -519,7 +519,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -529,7 +529,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -539,7 +539,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -549,7 +549,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -559,7 +559,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   },
@@ -569,7 +569,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "public/IMG_DIR/dev.jpg",
+    "photo": "/IMG_DIR/dev.jpg",
     "slider": "false",
     "dept": "eng"
   }
