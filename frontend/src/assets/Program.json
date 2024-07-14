@@ -6,7 +6,7 @@
     "info1": "3 Years",
     "info2": "CTEVT",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/450864860_1003136048265661_3378893550094198492_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Esne3IME9vAQ7kNvgHQI_Je&_nc_ht=scontent.fktm21-1.fna&oh=00_AYAD0VcsJxVCy981XFqOPTOfXL8NKFHao_UPyjZqomOggA&oe=669921CE",
-    "link": ""
+    "link": "/diploma"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "info1": "3 Years",
     "info2": "CTEVT",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/450094081_998770605368872_598287783043710059_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ArpBXxYe_pkQ7kNvgEA1IAC&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBzmNY8k5h2OdGRvErxWN0Rrzw2qLPHca9e5VU1eQ_Mpg&oe=669910BE",
-    "link": ""
+    "link": "/diploma"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "info1": "Nursery ",
     "info2": "UKG",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/449381061_993899542522645_1921800627396313937_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vPIEx505YtQQ7kNvgG5iz4D&_nc_ht=scontent.fktm21-1.fna&oh=00_AYAW-w0skqWxJg0egz67gRyg-5cuXcSI1dyrz-Vpp-ZexA&oe=66992A16",
-    "link": ""
+    "link": "/primary"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "info1": "Grade 1 ",
     "info2": "Grade 10",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/449381061_993899542522645_1921800627396313937_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vPIEx505YtQQ7kNvgG5iz4D&_nc_ht=scontent.fktm21-1.fna&oh=00_AYAW-w0skqWxJg0egz67gRyg-5cuXcSI1dyrz-Vpp-ZexA&oe=66992A16",
-    "link": ""
+    "link": "/primary"
   },
   {
     "id": 6,
@@ -42,7 +42,7 @@
     "info1": "NEB",
     "info2": "+2",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
-    "link": ""
+    "link": "/slc"
   },
   {
     "id": 5,
@@ -51,7 +51,7 @@
     "info1": "NEB",
     "info2": "+2",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
-    "link": ""
+    "link": "/slc"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "info1": "NEB",
     "info2": "+2",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
-    "link": ""
+    "link": "/slc"
   },
   {
     "id": 8,
@@ -69,6 +69,6 @@
     "info1": "NEB",
     "info2": "+2",
     "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
-    "link": ""
+    "link": "/slc"
   }
 ]
