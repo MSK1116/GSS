@@ -4,10 +4,10 @@ import img1 from "../../public/IMG_DIR/Gamvir_poster_for_admission.jpg";
 const Diploma_banner3 = () => {
   return (
     <>
-      <section className=" p-8 bg-gray-50">
+      <section className=" bg-gray-50">
         <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-            <div className="relative flex items-center bg-gray-200 rounded-md">
+            <div className="relative flex items-center p-8 bg-gray-200 rounded-md">
               <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
               <div className="sm:p-16 lg:p-24">
@@ -27,7 +27,7 @@ const Diploma_banner3 = () => {
           </div>
         </div>
       </section>
-      <section className=" p-8 bg-gray-50">
+      <section className=" bg-gray-50">
         <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
             <div className="relative z-10 lg:py-16">
@@ -35,9 +35,7 @@ const Diploma_banner3 = () => {
                 <img alt="" src={img1} className=" rounded-lg absolute inset-0 h-full w-full object-cover" />
               </div>
             </div>
-            <div className="relative flex items-center bg-gray-200 rounded-md">
-              <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
-
+            <div className="relative flex p-8 items-center bg-gray-200 rounded-md">
               <div className="sm:p-16 lg:p-24">
                 <h2 className="text-2xl font-bold sm:text-3xl">Enrollment Procedure</h2>
                 <h1>Candidates need to submit the application form distributed from the institute of CTEVT. All applicants must submit the following documents with the application form. l</h1>
