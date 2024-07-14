@@ -1,13 +1,14 @@
 import React from "react";
 import { FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Navigation from "./Navigation";
 
 const Footer = () => {
   return (
     <>
-      <footer className="max-w-screen-2xl p-8 container mx-auto md:px-20px  footer  footer-center bg-yellow-300 text-white  ">
+      <footer className=" hidden md:block max-w-screen-2xl p-8 container mx-auto md:px-20px  footer  footer-center bg-yellow-300 text-white  ">
         <div className="flex md:flex-row flex-col justify-center w-full md:justify-between">
-          <div className=" text-left  overflow-hidden">
+          <div className=" md:text-left flex flex-col text-center justify-center overflow-hidden">
             <img
               className=" object-cover mb-4 rounded-full h-36 w-36 hover:scale-105 transition-all duration-700"
               src="https://images.squarespace-cdn.com/content/v1/5e0849d5b75e913537ba6e4b/1580072657793-FQHY1078YO7V1B6O3A5C/Target%2BLogo%2B_%2BPictorial%2BLogo%2BExample%2B_%2BMill%2BCreek%2BCreative.png"
@@ -39,6 +40,7 @@ const Footer = () => {
               <MdEmail className="w-6 h-6" /> gamvirengdep073@gmail.com
             </span>
           </div>
+          <Navigation />
         </div>
         <h1 className=" flex flex-row">
           Crafted by GSS alumni:
@@ -46,6 +48,26 @@ const Footer = () => {
             Manish Singh Mahato
           </a>
         </h1>
+      </footer>
+
+      <footer className="block md:hidden footer footer-center bg-yellow-500 text-primary-content p-10">
+        <aside>
+          <img
+            className=" object-center object-cover rounded-full w-20 h-20"
+            src="https://images.squarespace-cdn.com/content/v1/5e0849d5b75e913537ba6e4b/1580072657793-FQHY1078YO7V1B6O3A5C/Target%2BLogo%2B_%2BPictorial%2BLogo%2BExample%2B_%2BMill%2BCreek%2BCreative.png"></img>
+          <p className="font-bold">
+            GSS
+            <br />
+            Mahalaxmi Nagarpalika-2, Imdol, Lalitpur
+          </p>
+          <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
+        </aside>
+        <span className=" flex flex-row">
+          Crafted by:
+          <a href="https://www.manishmahato.info.np/" target="blanl">
+            Manish Singh Mahato
+          </a>
+        </span>
       </footer>
     </>
   );
