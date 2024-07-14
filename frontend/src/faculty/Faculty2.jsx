@@ -12,7 +12,7 @@ const Faculty2 = () => {
           <h2 class="text-base font-bold text-indigo-600">They are ready to give their time to you!!</h2>
           <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900">Meet our teachers & staff</h1>
         </div>
-        <div class="  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5  gap-6">
+        <div class="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5  gap-6">
           {cardFac.map((cardFac) => (
             <Faculty_card key={cardFac.id} items={cardFac} />
           ))}
