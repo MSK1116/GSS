@@ -9,11 +9,9 @@ const Navbar = () => {
         <li>Home</li>
       </Link>
       <Link to="/primary">
-        <li>Primary School</li>
+        <li>ECD & School</li>
       </Link>
-      <Link to="/ble&see">
-        <li>8 to 10</li>
-      </Link>
+
       <Link to="/slc">
         <li>+2 (NEB)</li>
       </Link>
