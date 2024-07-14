@@ -14,7 +14,7 @@ const Faculty_slider_card = ({ items }) => {
                 <p className="text-2xl font-bold text-rose-600 sm:text-3xl">{items.title}</p>{" "}
               </div>
               <div>
-                <img className=" w-16 rounded-full row-span-2" src={items.photo}></img>
+                <img className=" object-center object-cover rounded-full w-20 h-20" src={items.photo}></img>
               </div>
             </div>
 

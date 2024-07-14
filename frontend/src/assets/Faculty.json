@@ -1,19 +1,21 @@
 [
   {
     "id": 1,
-    "title": "Dev Bhatta",
-    "post": "Vice Principle",
+    "title": "Devendra Maharjan",
+    "post": "Former Principal",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/337140122_963350965037481_3371595077929417901_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JqbWXIfa_p4Q7kNvgHmo2DX&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCdHwbUjK2-t_-Bb8Cu6qbKvkgg7lNftKC2k2VrczdZNA&oe=66992516"
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "true"
   },
   {
     "id": 2,
-    "title": "Dev Bhatta",
-    "post": "Vice Principle",
+    "title": "Nira Shrestha",
+    "post": "Principle",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/337140122_963350965037481_3371595077929417901_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JqbWXIfa_p4Q7kNvgHmo2DX&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCdHwbUjK2-t_-Bb8Cu6qbKvkgg7lNftKC2k2VrczdZNA&oe=66992516"
+    "photo": "public/IMG_DIR/Nira.jpg",
+    "slider": "true"
   },
   {
     "id": 3,
@@ -21,22 +23,554 @@
     "post": "Vice Principle",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/337140122_963350965037481_3371595077929417901_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JqbWXIfa_p4Q7kNvgHmo2DX&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCdHwbUjK2-t_-Bb8Cu6qbKvkgg7lNftKC2k2VrczdZNA&oe=66992516"
+    "photo": "public/IMG_DIR/dev.jpg",
+    "slider": "true"
   },
   {
     "id": 4,
-    "title": "Dev Bhatta",
+    "title": "Sundar KC",
     "post": "Vice Principle",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/337140122_963350965037481_3371595077929417901_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JqbWXIfa_p4Q7kNvgHmo2DX&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCdHwbUjK2-t_-Bb8Cu6qbKvkgg7lNftKC2k2VrczdZNA&oe=66992516"
+    "photo": "public/IMG_DIR/sundarkc.jpg",
+    "slider": "true"
   },
   {
-    "id": 5,
-    "title": "Dev Bhatta",
-    "post": "Vice Principle",
+    "id": 6,
+    "title": "Suman Maharjan",
+    "post": "Teacher",
     "email": "dev@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/337140122_963350965037481_3371595077929417901_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JqbWXIfa_p4Q7kNvgHmo2DX&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCdHwbUjK2-t_-Bb8Cu6qbKvkgg7lNftKC2k2VrczdZNA&oe=66992516"
+    "photo": "public/IMG_DIR/suman.jpg",
+    "slider": "true"
+  },
+  {
+    "id": 7,
+    "title": "Ranjan Dhugana",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 8,
+    "title": "Kabindra Gajurel",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 9,
+    "title": "Mukta Bahadur G.C",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 10,
+    "title": "Sagar Adhikari",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 11,
+    "title": "Deshbandu Dahal",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 12,
+    "title": "Dinesh Khatri",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 13,
+    "title": "Arunraj Nepal",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 14,
+    "title": "Rina Subedi",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 15,
+    "title": "Sushila Devi Sedai",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 16,
+    "title": "Gita Ghimire Bajgaie",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 17,
+    "title": "Ramila Niroula",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 18,
+    "title": "Rita Lama",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 19,
+    "title": "Prakriti Koirala",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 20,
+    "title": "Sannani Paoudel",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 21,
+    "title": "Sabita Timalsina",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 22,
+    "title": "Binita Yadav",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 23,
+    "title": "Rikhimaya Rai",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 24,
+    "title": "Laxmi Subedi",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 25,
+    "title": "Gita KC Ghimire",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 26,
+    "title": "Bishnu Thapa, Adhikari",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 27,
+    "title": "Ganga Shrestha",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 28,
+    "title": "Rupa Rimal",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 29,
+    "title": "Rimal Basnet Subedi",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 30,
+    "title": "Parvati Kumari Pande",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 31,
+    "title": "Sangam Maharjan",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 32,
+    "title": "Shayam Roka",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 33,
+    "title": "Ram Raout",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 34,
+    "title": "Sujita Sakya",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 35,
+    "title": "Roshan Basnet",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 36,
+    "title": "Rebika Sunar",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 37,
+    "title": "Trishna Pahari",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 38,
+    "title": "Bhawani Thapa",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 39,
+    "title": "Ritu B.K",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 40,
+    "title": "Menuka Tamang",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 41,
+    "title": "Soni Mahar",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 42,
+    "title": "Sanish Nepali",
+    "post": "Assistant Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 43,
+    "title": "Ayushri Chaudhary",
+    "post": "School Nurse",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 44,
+    "title": "Karishma K.C",
+    "post": "Staff",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 45,
+    "title": "Nandita Rana",
+    "post": "Assistnat Staff",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 46,
+    "title": "Rama Kumari Pande",
+    "post": "Assistnat Staff",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 47,
+    "title": "Tritaraj Bhujel",
+    "post": "School Gaurd",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false"
+  },
+  {
+    "id": 48,
+    "title": "Prabin Basukala",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 49,
+    "title": "Er. Dan Bahadur Saud",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 50,
+    "title": "Gunnidhi Lamsala",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 51,
+    "title": "Mahesh Bhatrai ",
+    "post": "Teacher, CTEVT",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 52,
+    "title": "Rajan Nepal",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 53,
+    "title": "Samundra Paoudel",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 54,
+    "title": "Sudip Bista",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 55,
+    "title": "Sankar Nupane",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 56,
+    "title": "Shobha Pandit",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 57,
+    "title": "Madan Subedi",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 58,
+    "title": "Lalita Subedi",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 59,
+    "title": "Binod Maharjan",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 60,
+    "title": "Bigyan Acharya",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 61,
+    "title": "Bibek Dahal",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 62,
+    "title": "Ashmita Shrestha",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
+  },
+  {
+    "id": 63,
+    "title": "Anil Mandal",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "public/IMG_DIR/devmaharjan.jpg",
+    "slider": "false",
+    "dept": "eng"
   }
 ]

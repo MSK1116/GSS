@@ -4,6 +4,8 @@ import Faculty_list from "../assets/Faculty.json";
 import Faculty_slider_card from "../component/Faculty_slider_card";
 
 const Faculty_slider = () => {
+  const sliderFac = Faculty_list.filter((data) => data.slider == "true");
+
   useEffect(() => {
     const keenSlider = new KeenSlider("#keen-slider", {
       loop: true,
@@ -72,8 +74,8 @@ const Faculty_slider = () => {
 
             <div className="-mx-6 lg:col-span-2 lg:mx-0">
               <div id="keen-slider" className="keen-slider">
-                {Faculty_list.map((Faculty_list) => (
-                  <Faculty_slider_card key={Faculty_list.id} items={Faculty_list} />
+                {sliderFac.map((sliderFac) => (
+                  <Faculty_slider_card key={sliderFac.id} items={sliderFac} />
                 ))}
               </div>
             </div>
