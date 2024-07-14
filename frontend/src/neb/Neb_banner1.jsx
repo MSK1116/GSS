@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Neb_banner1 = () => {
   return (
@@ -20,9 +21,11 @@ const Neb_banner1 = () => {
                 </p>
 
                 <div className="mt-4 md:mt-8">
-                  <a href="#" className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400">
-                    Enroll now
-                  </a>
+                  <Link to={"/apply"}>
+                    <span className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400">
+                      Enroll now
+                    </span>
+                  </Link>
                 </div>
               </div>
             </div>
