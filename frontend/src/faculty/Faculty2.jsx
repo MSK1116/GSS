@@ -7,7 +7,7 @@ const Faculty2 = () => {
   const cardFac1 = List.filter((data) => data.slider != "true" && data.dept == "eng");
   return (
     <>
-      <section class="w-screen  bg-gray-50 mx-auto p-8 sm:px-6 lg:px-4 py-12 ">
+      <section class="max-w-screen-2xl  bg-gray-50 mx-auto p-8 sm:px-6 lg:px-4 py-12 ">
         <div class="text-center pb-12">
           <h2 class="text-base font-bold text-indigo-600">They are ready to give their time to you!</h2>
           <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900">Meet our teachers & staff</h1>
