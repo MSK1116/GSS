@@ -142,6 +142,25 @@ const Apply_banner = () => {
                     />
                   </div>
                   <div className="mb-6">
+                    <input
+                      required
+                      name="program"
+                      type="text"
+                      placeholder="Intrested Program"
+                      className="
+                        w-full bg-white
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-body-color text-base
+                        border border-[f0f0f0]
+                        outline-none
+                        focus-visible:shadow-none
+                        focus:border-primary
+                        "
+                    />
+                  </div>
+                  <div className="mb-6">
                     <span>Please upload pp size photo (PNG or jpeg)</span>
                     <input required type="file" name="photo" accept="image/png, image/jpeg" className="file-input file-input-bordered file-input-info w-full " />
                   </div>
