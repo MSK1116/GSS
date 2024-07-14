@@ -1,5 +1,6 @@
 import React from "react";
-import img1 from "../../public/IMG_DIR/Gamvir_poster_for_admission.jpg";
+import img1 from "../../public/IMG_DIR/child2.jpeg";
+import img2 from "../../public/IMG_DIR/child3.jpeg";
 
 const Pri_banner4 = () => {
   return (
@@ -32,7 +33,7 @@ const Pri_banner4 = () => {
           <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
             <div className="relative z-10 lg:py-16">
               <div className="relative h-64 sm:h-80 lg:h-full">
-                <img alt="" src={img1} className=" rounded-lg absolute inset-0 h-full w-full object-cover" />
+                <img alt="" src={img2} className=" rounded-lg absolute inset-0 h-full w-full object-cover" />
               </div>
             </div>
             <div className="relative flex p-8 items-center bg-gray-200 rounded-md">

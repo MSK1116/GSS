@@ -4,7 +4,7 @@ const Pri_banner = () => {
   return (
     <>
       <div className="max-w-screen-2xl rounded-lg">
-        <section className="overflow-hidden md:h-screen  bg-[url(/IMG_DIR/GamvirFull1.jpg)] bg-cover bg-top bg-no-repeat">
+        <section className="overflow-hidden md:h-screen  bg-[url(/IMG_DIR/child1.jpeg)] bg-cover bg-top bg-no-repeat">
           <div className="bg-black/50  p-8  md:h-screen md:p-12 lg:px-16 lg:py-24">
             <div className="text-left ">
               <h2 className="text-2xl font-bold mt-10 text-white sm:text-3xl md:text-5xl">Schooling at Gamvir</h2>
