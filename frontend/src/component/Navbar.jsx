@@ -20,6 +20,9 @@ const Navbar = () => {
       <Link to={"/diploma"}>
         <li>Diploma</li>
       </Link>
+      <Link to={"/faculty"}>
+        <li>Faculty</li>
+      </Link>
     </>
   );
   return (
