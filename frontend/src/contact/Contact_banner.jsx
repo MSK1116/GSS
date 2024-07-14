@@ -26,7 +26,7 @@ const Contact_banner = () => {
                 </label>
 
                 <div className="relative">
-                  <input type="text" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Fullname" required />
+                  <input name="full_name" type="text" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Fullname" required />
                   <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg className="size-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                       <path
@@ -45,7 +45,7 @@ const Contact_banner = () => {
                 </label>
 
                 <div className="relative">
-                  <input type="email" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Email" required />
+                  <input name="email" type="email" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Email" required />
 
                   <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg className="size-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -66,7 +66,7 @@ const Contact_banner = () => {
                   Phone Number
                 </label>
                 <div className="relative">
-                  <input required type="text" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="+977 9812055XXX" max={13} />
+                  <input name="Phone_number" required type="text" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="+977 9812055XXX" max={13} />
 
                   <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg className="size-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ const Contact_banner = () => {
                   Adress
                 </label>
                 <div className="relative">
-                  <input required type="text" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Address" max={40} />
+                  <input name="adress" required type="text" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Address" max={40} />
 
                   <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg className="size-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -102,7 +102,7 @@ const Contact_banner = () => {
                   Message
                 </label>
                 <div className="relative">
-                  <textarea className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Message" rows="8" id="message" maxLength={400}></textarea>
+                  <textarea name="message" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pe-12 text-sm shadow-sm" placeholder="Message" rows="8" id="message" maxLength={400}></textarea>
 
                   <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg className="size-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -123,7 +123,7 @@ const Contact_banner = () => {
                   <label className="cursor-pointer label">
                     <span className="label-text "> Does it contain feedback ? </span>
 
-                    <input value={"feedback"} type="checkbox" defaultChecked className="checkbox checkbox-success" />
+                    <input name="Feedback_status" value={"It contains feedback"} type="checkbox" defaultChecked className="checkbox checkbox-success" />
                   </label>
                 </div>
 
