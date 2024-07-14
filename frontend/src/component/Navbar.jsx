@@ -27,7 +27,10 @@ const Navbar = () => {
     <>
       <div className="max-w-screen-2xl fixed top-0 left-0 right-0 z-50 container mx-auto md:px-20px navbar bg-white">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">GSS Sec. School</a>
+          <Link to={"/"}>
+            {" "}
+            <span className="btn btn-ghost text-xl">GSS Sec. School</span>
+          </Link>
         </div>
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
