@@ -5,6 +5,7 @@ import Faculty_slider from "./Faculty_slider";
 import Faculty2 from "./Faculty2";
 
 const Faculty = () => {
+  document.title = "Faculty || GSS";
   return (
     <>
       <Navbar />
