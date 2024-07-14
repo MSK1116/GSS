@@ -2,6 +2,7 @@ import React from "react";
 import { FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Navigation from "./Navigation";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,7 +19,10 @@ const Footer = () => {
           </div>
           <div className="flex flex-col  text-left">
             <h1 className=" text-blue-600 mb-4 text-[18px] ">Quick Link</h1>
-            <a>Contact us</a>
+            <Link to={"/contact"}>
+              <a>Contact us</a>
+            </Link>
+
             <a>About us</a>
             <a>Result</a>
             <a>Apply</a>

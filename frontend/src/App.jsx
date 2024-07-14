@@ -5,6 +5,7 @@ import Primaryschool from "./primary/Primaryschool";
 import Neb from "./neb/Neb";
 import Diploma from "./diploma/Diploma";
 import Faculty from "./faculty/Faculty";
+import Contact from "./contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/slc" element={<Neb />} />
         <Route path="/diploma" element={<Diploma />} />
         <Route path="/faculty" element={<Faculty />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </>
   );
