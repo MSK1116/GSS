@@ -2,6 +2,9 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import img2 from "../../public/IMG_DIR/GamvirFull2.jpg";
+import img1 from "../../public/IMG_DIR/GamvirFull1.jpg";
+import img3 from "../../public/IMG_DIR/child1.jpeg";
 
 const Viewer = () => {
   return (
@@ -27,27 +30,15 @@ const Viewer = () => {
         <div>
           <Carousel dynamicHeight={true} autoPlay interval={3000} infiniteLoop={true} showArrows={true} showThumbs={false}>
             <div>
-              <img
-                src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/294982712_1752018298481172_5948095007949087131_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZT5uHUOWnGEQ7kNvgEzF8Mb&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCaCIpS1j-_7stJ8PVrdj_sIxJcqA9P9CO7c-pFjcrGPg&oe=6696B1F7"
-                className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
-                alt="Image 1"
-              />
+              <img src={img1} className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" alt="Image 1" />
               <p className="legend mt-10">समुद्र भवन</p>
             </div>
             <div>
-              <img
-                src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/294982712_1752018298481172_5948095007949087131_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZT5uHUOWnGEQ7kNvgEzF8Mb&_nc_ht=scontent.fktm21-1.fna&oh=00_AYCaCIpS1j-_7stJ8PVrdj_sIxJcqA9P9CO7c-pFjcrGPg&oe=6696B1F7"
-                className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
-                alt="Image 2"
-              />
+              <img src={img2} className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" alt="Image 2" />
               <p className="legend">Legend 2</p>
             </div>
             <div>
-              <img
-                src="https://scontent.fktm21-1.fna.fbcdn.net/v/t1.6435-9/66319246_904671999882477_2743657247925075968_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=jp2X1YFceYYQ7kNvgH5-Xac&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBKFLij5XZAO5XsGSnRj-YQIrGlWOmKLNAV09ieNuAlBg&oe=66B8301D"
-                className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
-                alt="Image 3"
-              />
+              <img src={img3} className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" alt="Image 3" />
               <p className="legend">Legend 3</p>
             </div>
           </Carousel>
