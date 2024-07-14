@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className="max-w-screen-2xl p-8 container mx-auto md:px-20px  footer  footer-center bg-yellow-300 text-white  ">
-        <div className="flex flex-row w-full justify-between">
+        <div className="flex md:flex-row flex-col justify-center w-full md:justify-between">
           <div className=" text-left  overflow-hidden">
             <img
               className=" object-cover mb-4 rounded-full h-36 w-36 hover:scale-105 transition-all duration-700"
@@ -16,8 +16,9 @@ const Footer = () => {
             <h1>Mahalaxmi Nagarpalika-2, Imadol, Lalitpur, Nepal</h1>
           </div>
           <div className="flex flex-col  text-left">
-            <h1 className=" text-blue-600  text-[18px] ">Quick Link</h1>
+            <h1 className=" text-blue-600 mb-4 text-[18px] ">Quick Link</h1>
             <a>Contact us</a>
+            <a>About us</a>
             <a>Result</a>
             <a>Apply</a>
           </div>
@@ -37,15 +38,6 @@ const Footer = () => {
             <span className="flex flex-row items-center ">
               <MdEmail className="w-6 h-6" /> gamvirengdep073@gmail.com
             </span>
-          </div>
-          <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.5071563018428!2d85.34102777468506!3d27.670715976203564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e55e6303d1%3A0x307d48bbab7bf1bc!2sGamvir%20Samudra%20Setu%20H.%20S.%20School!5e0!3m2!1sen!2snp!4v1720957027709!5m2!1sen!2snp"
-              width="200"
-              height="200"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         <h1 className=" flex flex-row">
