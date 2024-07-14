@@ -3,6 +3,7 @@ import { FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
+import Logo from "../../public/IMG_DIR/Logo.jpeg";
 
 const Footer = () => {
   return (
@@ -10,10 +11,7 @@ const Footer = () => {
       <footer className=" hidden md:block max-w-screen-2xl p-8 container mx-auto md:px-20px  footer  footer-center bg-yellow-300 text-white  ">
         <div className="flex md:flex-row flex-col justify-center w-full md:justify-between">
           <div className=" md:text-left flex flex-col text-center justify-center overflow-hidden">
-            <img
-              className=" object-cover mb-4 rounded-full h-36 w-36 hover:scale-105 transition-all duration-700"
-              src="https://images.squarespace-cdn.com/content/v1/5e0849d5b75e913537ba6e4b/1580072657793-FQHY1078YO7V1B6O3A5C/Target%2BLogo%2B_%2BPictorial%2BLogo%2BExample%2B_%2BMill%2BCreek%2BCreative.png"
-              alt="photo"></img>
+            <img className=" object-cover mb-4 rounded-full h-36 w-36 hover:scale-105 transition-all duration-700" src={Logo} alt="photo"></img>
             <h1 className=" font-extrabold">GSS Sec. School</h1>
             <h1>Mahalaxmi Nagarpalika-2, Imadol, Lalitpur, Nepal</h1>
           </div>
@@ -53,9 +51,7 @@ const Footer = () => {
 
       <footer className="block md:hidden footer footer-center bg-yellow-500 text-primary-content p-10">
         <aside>
-          <img
-            className=" object-center object-cover rounded-full w-20 h-20"
-            src="https://images.squarespace-cdn.com/content/v1/5e0849d5b75e913537ba6e4b/1580072657793-FQHY1078YO7V1B6O3A5C/Target%2BLogo%2B_%2BPictorial%2BLogo%2BExample%2B_%2BMill%2BCreek%2BCreative.png"></img>
+          <img className=" object-center object-cover rounded-full w-20 h-20" src={Logo}></img>
           <p className="font-bold">
             GSS
             <br />
