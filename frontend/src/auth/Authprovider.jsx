@@ -8,15 +8,12 @@ export default function AuthProvider({ children }) {
 
   useEffect(() => {
     const initializeAuth = async () => {
-      const envPwd = import.meta.env.VITE_PASSWORD;
-      const storedHashPwd = localStorage.getItem("HASHPWD");
+      const envID = import.meta.env.VITE_ID;
+
       const storedUser = localStorage.getItem("ID");
 
-      if (storedHashPwd && envPwd) {
-        const isValid = await bcryptjs.compare(envPwd, storedHashPwd);
-        if (isValid) {
-          setAuthUser(JSON.parse(storedUser));
-        }
+      if (envID == storedUser) {
+        setAuthUser(JSON.parse(storedUser));
       }
     };
 
