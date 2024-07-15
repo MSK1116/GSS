@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import * as XLSX from "xlsx";
 
 const Convert = () => {
   const [json, setJson] = useState(null);

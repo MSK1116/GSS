@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../../public/IMG_DIR/Logo.jpeg";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import { Link } from "react-router-dom";
+import dotenv from "dotenv";
+import toast from "react-hot-toast";
 
 const Login = () => {
+  dotenv.config();
   document.title = "Staff Login || GSS";
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const envID = process.env.REACT_APP_ID;
+  const envPassword = process.env.REACT_APP_PASSWORD;
+  const onSubmit = (data) => {
+    if (envID == data.username) {
+      if (envPassword == data.password) {
+        localStorage.setItem("ID", envID);
+        localStorage.setItem("PASSWORD", envPassword);
+        toast.success("Login Successful");
+      }
+    } else {
+      toast.error("No user found");
+    }
+  };
   return (
     <>
       <Navbar />
@@ -14,13 +36,17 @@ const Login = () => {
           <div className="  m-auto w-40 h-40">
             <img className="object-cover rounded-full" src={Logo}></img>
           </div>
-          <form>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="bg-white shadow w-full rounded-lg divide-y divide-gray-200">
               <div className="px-5 py-7">
                 <label className="font-semibold text-sm text-gray-600 pb-1 block">Username</label>
-                <input required type="text" className="border bg-gray-100 rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full" />
+                <input {...register("username", { required: true })} type="text" className="border bg-gray-100 rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full" />
+                {errors.username && <span className="text-sm text-red-500 ">This field is required.</span>}
+
                 <label className="font-semibold text-sm text-gray-600 pb-1 block">Password</label>
-                <input required type="password" className="border bg-gray-100 rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full" />
+                <input {...register("password", { required: true })} type="password" className="border bg-gray-100 rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full" />
+                {errors.fullname && <span className="text-sm text-red-500 ">This field is required.</span>}
+
                 <button
                   type="submit"
                   className="transition duration-200 bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 focus:shadow-sm focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 text-white w-full py-2.5 rounded-lg text-sm shadow-sm hover:shadow-md font-semibold text-center inline-block">
