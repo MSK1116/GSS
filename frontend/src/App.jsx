@@ -8,6 +8,7 @@ import Faculty from "./faculty/Faculty";
 import Contact from "./contact/Contact";
 import Apply from "./apply/Apply";
 import Convert from "./Convert";
+import Login from "./upload/Login";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="/apply" element={<Apply />} />
         <Route path="/convert" element={<Convert />} />
+        <Route path="/staff" element={<Login />} />
       </Routes>
     </>
   );
