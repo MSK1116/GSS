@@ -3,9 +3,41 @@ import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Convert from "../component/Convert";
 import ResultDisplay from "./ResultDisplay";
+import { useForm } from "react-hook-form";
+import toast, { Toaster } from "react-hot-toast";
 
 const Dashboard = () => {
   const [jsonData, setJsonData] = useState(null);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const [signUpFlag, setSignUpFlag] = useState(false);
+  const onSubmit = async (data) => {
+    const messageData = {
+      title: data.title,
+      body: data.body,
+      publisher: data.publisher,
+    };
+    const toastId = toast.loading("Uploading...");
+    setSignUpFlag(true);
+    await axios
+      .post("https://gss-wine.vercel.app/messagePush", messageData)
+      .then((res) => {
+        if (res.data) {
+          toast.success("Notification was updated ", { id: toastId });
+          console.log("Notification was updated ", { id: toastId });
+        }
+      })
+      .catch((err) => {
+        if (err.response) {
+          console.log(err);
+          toast.error("ERROR: " + err.response.data.message, { id: toastId });
+          setSignUpFlag(false);
+        }
+      });
+  };
   return (
     <>
       <Navbar />
@@ -19,19 +51,20 @@ const Dashboard = () => {
               <span>Date:</span> {new Date().getMonth() + 1} / {new Date().getDate()} / {new Date().getFullYear()}
             </h1>
             <div className="p-3">
-              <form className=" w-full space-y-2 ">
+              <form onSubmit={handleSubmit(onSubmit)} className=" w-full space-y-2 ">
                 <div className="  gap-x-2 gap-y-2">
                   <label className="text-sm" htmlFor="title">
                     Title
                   </label>
 
                   <input
+                    {...register("title", { required: true })}
                     id="title"
-                    required
                     name="title"
                     type="text"
                     placeholder="Holday on 1st august"
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></input>
+                  {errors.title && <span className="text-sm text-red-500 ">This field is required (for e.g Manish Singh)</span>}
                 </div>
                 <div className="  gap-x-2 gap-y-2">
                   <label className="text-sm" htmlFor="body">
@@ -41,11 +74,12 @@ const Dashboard = () => {
                   <textarea
                     rows={8}
                     id="body"
-                    required
+                    {...register("body", { required: true })}
                     name="body"
                     type="text"
                     placeholder="Due to heavy rainfall we will be closed for a day."
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></textarea>
+                  {errors.body && <span className="text-sm text-red-500 ">This field is required (for e.g Manish Singh)</span>}
                 </div>
                 <div className="  gap-x-2 gap-y-2">
                   <label className="text-sm" htmlFor="title">
@@ -53,12 +87,13 @@ const Dashboard = () => {
                   </label>
 
                   <input
+                    {...register("publisher", { required: true })}
                     id="title"
-                    required
                     name="title"
                     type="text"
                     placeholder="Karishma Subedi"
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></input>
+                  {errors.publisher && <span className="text-sm text-red-500 ">This field is required (for e.g Manish Singh)</span>}
                 </div>
                 <button className="btn w-24 text-white btn-success m-auto" type="submit">
                   Push
