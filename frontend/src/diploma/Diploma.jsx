@@ -15,7 +15,7 @@ const Diploma = () => {
       <Diploma_banner />
       <Diploma_Banner2 />
       <Diploma_banner3 />
-      <Diploma_price_card />
+      {/* <Diploma_price_card /> */}
       <Footer />
     </>
   );

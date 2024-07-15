@@ -7,6 +7,7 @@ import Diploma from "./diploma/Diploma";
 import Faculty from "./faculty/Faculty";
 import Contact from "./contact/Contact";
 import Apply from "./apply/Apply";
+import Convert from "./Convert";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/faculty" element={<Faculty />} />
         <Route path="contact" element={<Contact />} />
         <Route path="/apply" element={<Apply />} />
+        <Route path="/convert" element={<Convert />} />
       </Routes>
     </>
   );
