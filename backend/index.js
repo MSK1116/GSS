@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 
+import messagePushRoute from "./route/message.route.js";
+
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -24,7 +26,7 @@ app.get("/", (req, res) => {
 });
 // define route
 
-// app.use("/book", bookRoute);
+app.use("/messagePush", messagePushRoute);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
