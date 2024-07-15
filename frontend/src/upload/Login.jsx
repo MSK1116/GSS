@@ -6,9 +6,11 @@ import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import toast, { Toaster } from "react-hot-toast";
 import bcryptjs from "bcryptjs";
-import { Navigate } from "react-router-dom";
 
 const Login = () => {
+  useEffect(() => {
+    localStorage.clear();
+  }, []);
   const navigate = useNavigate();
   document.title = "Staff Login || GSS";
   const {
@@ -21,6 +23,7 @@ const Login = () => {
   const envPassword = import.meta.env.VITE_PASSWORD;
 
   console.log(envID, envPassword);
+
   const onSubmit = async (data) => {
     if (envID == data.username) {
       if (envPassword == data.password) {
@@ -33,8 +36,11 @@ const Login = () => {
         toast.success("Login Successful", { ID: toastID });
         console.log("hi");
         navigate("/abc123");
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
       } else {
-        toast.error("Password");
+        toast.error("Password wrong");
       }
     } else {
       toast.error("No user found");
