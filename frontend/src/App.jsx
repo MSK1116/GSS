@@ -9,8 +9,11 @@ import Contact from "./contact/Contact";
 import Apply from "./apply/Apply";
 import Convert from "./Convert";
 import Login from "./upload/Login";
+import { useAuth } from "./auth/Authprovider";
+import Dashboard from "./upload/Dashboard";
 
 function App() {
+  const [authUser, setAuthUser] = useAuth();
   return (
     <>
       <Routes>
@@ -24,6 +27,7 @@ function App() {
         <Route path="/apply" element={<Apply />} />
         <Route path="/convert" element={<Convert />} />
         <Route path="/staff" element={<Login />} />
+        <Route path="/abc123" element={authUser ? <Dashboard /> : <Login />} />
       </Routes>
     </>
   );
