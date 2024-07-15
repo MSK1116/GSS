@@ -5,9 +5,10 @@ import Convert from "../component/Convert";
 import ResultDisplay from "./ResultDisplay";
 import { useForm } from "react-hook-form";
 import toast, { Toaster } from "react-hot-toast";
+import axios from "axios";
 
 const Dashboard = () => {
-  const [jsonData, setJsonData] = useState(null);
+  const [jsondata, setJsonData] = useState(null);
   const {
     register,
     handleSubmit,
@@ -64,7 +65,7 @@ const Dashboard = () => {
                     type="text"
                     placeholder="Holday on 1st august"
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></input>
-                  {errors.title && <span className="text-sm text-red-500 ">This field is required (for e.g Manish Singh)</span>}
+                  {errors.title && <span className="text-sm text-red-500 ">This field is required.</span>}
                 </div>
                 <div className="  gap-x-2 gap-y-2">
                   <label className="text-sm" htmlFor="body">
@@ -79,7 +80,7 @@ const Dashboard = () => {
                     type="text"
                     placeholder="Due to heavy rainfall we will be closed for a day."
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></textarea>
-                  {errors.body && <span className="text-sm text-red-500 ">This field is required (for e.g Manish Singh)</span>}
+                  {errors.body && <span className="text-sm text-red-500 ">This field is required.</span>}
                 </div>
                 <div className="  gap-x-2 gap-y-2">
                   <label className="text-sm" htmlFor="title">
@@ -89,11 +90,10 @@ const Dashboard = () => {
                   <input
                     {...register("publisher", { required: true })}
                     id="title"
-                    name="title"
                     type="text"
                     placeholder="Karishma Subedi"
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></input>
-                  {errors.publisher && <span className="text-sm text-red-500 ">This field is required (for e.g Manish Singh)</span>}
+                  {errors.publisher && <span className="text-sm text-red-500 ">This field is required.</span>}
                 </div>
                 <button className="btn w-24 text-white btn-success m-auto" type="submit">
                   Push
@@ -110,31 +110,31 @@ const Dashboard = () => {
               <form className=" space-y-3">
                 <div className="w-full">
                   <label htmlFor="grade">Select Class</label>
-                  <select id="grade" className=" bg-gray-100 w-full select select-accent">
-                    <option disabled selected>
+                  <select readOnly value={"not selected"} id="grade" className=" bg-gray-100 w-full select select-accent">
+                    <option disabled value={"note selected"}>
                       Select Class
                     </option>
-                    <option>Class 8</option>
-                    <option>Class 9</option>
-                    <option>Class 10</option>
+                    <option value={"8"}>Class 8</option>
+                    <option value={"9"}>Class 9</option>
+                    <option value={"10"}>Class 10</option>
                   </select>
                 </div>
                 <div className="w-full ">
                   <label htmlFor="term">Select Term</label>
-                  <select id="term" className=" bg-gray-100 w-full select select-accent">
-                    <option disabled selected>
+                  <select readOnly value={"not selected"} id="term" className=" bg-gray-100 w-full select select-accent">
+                    <option disabled value={"note selected"}>
                       Select Class
                     </option>
-                    <option>First Terminal</option>
-                    <option>Second Terminal</option>
-                    <option>Third Terminal</option>
-                    <option>Final Exam</option>
+                    <option value={"1st"}>First Terminal</option>
+                    <option value={"2nd"}>Second Terminal</option>
+                    <option value={"3rd"}>Third Terminal</option>
+                    <option value={"final"}>Final Exam</option>
                   </select>
                 </div>
 
                 <div className="w-full">
                   <Convert setJsonData={setJsonData} />
-                  <div jsonData={jsonData}></div>
+                  <div jsondata={jsondata}></div>
                 </div>
                 <div className="  gap-x-2 gap-y-2">
                   <label className="text-sm" htmlFor="body">
@@ -157,7 +157,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        {jsonData && <ResultDisplay jsonData={jsonData} />}
+        {jsondata && <ResultDisplay jsondata={jsondata} />}
       </div>
       <Footer />
     </>
