@@ -23,4 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-frontend\src\assets\.env
+
+frontend/src/assets/.env
