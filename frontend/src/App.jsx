@@ -9,7 +9,7 @@ import Contact from "./contact/Contact";
 import Apply from "./apply/Apply";
 import Convert from "./Convert";
 import Login from "./upload/Login";
-import { useAuth } from "./auth/Authprovider";
+import { useAuth } from "./auth/Authprovider.jsx";
 import Dashboard from "./upload/Dashboard";
 
 function App() {

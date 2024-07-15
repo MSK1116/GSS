@@ -1,25 +1,10 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
-import bcryptjs from "bcryptjs";
+import React, { createContext, useContext, useState } from "react";
 
 export const AuthContext = createContext();
 
 export default function AuthProvider({ children }) {
-  const [authUser, setAuthUser] = useState(undefined);
-
-  useEffect(() => {
-    const initializeAuth = async () => {
-      const envID = import.meta.env.VITE_ID;
-
-      const storedUser = localStorage.getItem("ID");
-
-      if (envID == storedUser) {
-        setAuthUser(JSON.parse(storedUser));
-      }
-    };
-
-    initializeAuth();
-  }, []);
-
+  const initailAuth = localStorage.getItem("ID");
+  const [authUser, setAuthUser] = useState(initailAuth ? JSON.parse(initailAuth) : undefined);
   return <AuthContext.Provider value={[authUser, setAuthUser]}>{children}</AuthContext.Provider>;
 }
 
