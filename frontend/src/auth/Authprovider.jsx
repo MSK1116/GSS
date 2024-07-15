@@ -8,7 +8,7 @@ export default function AuthProvider({ children }) {
   console.log(envID);
 
   const initailAuth = localStorage.getItem("ID");
-  const [authUser, setAuthUser] = useState(initailAuth == envID ? JSON.parse(initailAuth) : undefined);
+  const [authUser, setAuthUser] = useState(initailAuth == envID ? initailAuth : undefined);
 
   return <AuthContext.Provider value={[authUser, setAuthUser]}>{children}</AuthContext.Provider>;
 }
