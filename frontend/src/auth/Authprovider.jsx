@@ -5,8 +5,6 @@ export const AuthContext = createContext();
 export default function AuthProvider({ children }) {
   const envID = import.meta.env.VITE_ID.toString();
 
-  console.log(envID);
-
   const initailAuth = localStorage.getItem("ID");
   const [authUser, setAuthUser] = useState(initailAuth == envID ? initailAuth : undefined);
 
