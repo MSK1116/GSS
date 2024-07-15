@@ -22,8 +22,6 @@ const Login = () => {
   const envID = import.meta.env.VITE_ID;
   const envPassword = import.meta.env.VITE_PASSWORD;
 
-  console.log(envID, envPassword);
-
   const onSubmit = async (data) => {
     if (envID == data.username) {
       if (envPassword == data.password) {
@@ -38,7 +36,7 @@ const Login = () => {
         navigate("/abc123");
         setTimeout(() => {
           window.location.reload();
-        }, 2000);
+        }, 3000);
       } else {
         toast.error("Password wrong");
       }
