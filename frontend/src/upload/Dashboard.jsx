@@ -28,7 +28,7 @@ const Dashboard = () => {
       .then((res) => {
         if (res.data) {
           toast.success("Notification was updated ", { id: toastId });
-          console.log("Notification was updated ", { id: toastId });
+          console.log("Notification was updated");
         }
       })
       .catch((err) => {

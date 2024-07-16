@@ -27,21 +27,26 @@ export const messagePush = async (req, res) => {
 
 export const messagePull = async (req, res) => {
   try {
-    const message = await Message;
-    if (message) {
+    const messages = await Message.find().sort({ time: -1 });
+
+    if (message > 0) {
+      const formattedMessages = messages.map((message) => ({
+        _id: message._id,
+        title: message.title,
+        body: message.body,
+        time: message.time,
+        publisher: message.publisher,
+      }));
       res.status(200).json({
         message: "Notification Loaded.",
-        message: {
-          _id: Idl,
-          title: title,
-          body: body,
-          time: time,
-          publisher: publisher,
-        },
+        message: formattedMessages,
       });
+      console.log(formattedMessages);
+    } else {
+      res.status(404).json({ message: "No messages found" });
     }
   } catch (error) {
-    console.error("Login failed:", error.message);
+    console.error("Notification failed to load:", error.message);
     if (!res.headersSent) {
       res.status(500).json({ message: "Internal server error" });
     }
