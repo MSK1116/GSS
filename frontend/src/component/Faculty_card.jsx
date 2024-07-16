@@ -1,7 +1,6 @@
 import React from "react";
 
 const Faculty_card = ({ items }) => {
-  console.log(items);
   return (
     <>
       <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center hover:shadow-lg">
