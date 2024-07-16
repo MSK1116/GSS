@@ -29,7 +29,7 @@ export const messagePull = async (req, res) => {
   try {
     const messages = await Message.find().sort({ time: -1 });
 
-    if (message > 0) {
+    if (messages > 0) {
       const formattedMessages = messages.map((message) => ({
         _id: message._id,
         title: message.title,
