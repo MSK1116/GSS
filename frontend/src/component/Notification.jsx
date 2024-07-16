@@ -15,9 +15,7 @@ const Notification = () => {
         const res = await axios.get("https://gss-wine.vercel.app/message/messagePull");
         toast.success("Loaded...", { duration: 3000, id: toastID });
         setMessageList(res.data);
-        console.log(res.data);
       } catch (error) {
-        console.log("error", error);
         toast.error("Failed to fetch", { id: toastID });
       } finally {
         toast.remove(toastID);
@@ -25,7 +23,7 @@ const Notification = () => {
     };
     getMessage();
   }, []);
-  console.log(message_list);
+
   return (
     <>
       <div className="dropdown dropdown-end">

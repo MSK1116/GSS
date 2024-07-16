@@ -28,6 +28,8 @@ export const messagePush = async (req, res) => {
 export const messagePull = async (req, res) => {
   try {
     const message = await Message.find();
+    message.sort((a, b) => new Date(b.time) - new Date(a.time));
+    console.log(message);
     res.status(202).json(message);
   } catch (error) {
     console.error("Notification failed to load:", error.message);
