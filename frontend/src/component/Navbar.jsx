@@ -53,7 +53,7 @@ const Navbar = () => {
           <ul className="menu space-x-8 menu-horizontal px-1">{navItems}</ul>
         </div>
         <div className="flex-none space-x-4">
-          <Notification />
+          {/* <Notification /> */}
           <Link to={"/contact"}>
             <button className="btn  hidden md:block bg-emerald-600 hover:bg-emerald-700 transition-all border-none text-white ">Contact Us</button>
           </Link>
