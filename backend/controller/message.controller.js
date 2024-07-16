@@ -24,3 +24,26 @@ export const messagePush = async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 };
+
+export const messagePull = async (req, res) => {
+  try {
+    const message = await Message;
+    if (message) {
+      res.status(200).json({
+        message: "Notification Loaded.",
+        message: {
+          _id: Idl,
+          title: title,
+          body: body,
+          time: time,
+          publisher: publisher,
+        },
+      });
+    }
+  } catch (error) {
+    console.error("Login failed:", error.message);
+    if (!res.headersSent) {
+      res.status(500).json({ message: "Internal server error" });
+    }
+  }
+};

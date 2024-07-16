@@ -1,10 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 import { IoNotificationsCircleSharp } from "react-icons/io5";
+import axios from "axios";
 
 const Notification = () => {
+  const [message_list, setMessageList] = useState([]);
+
+  useEffect(() => {
+    const toastID = toast.loading("Loading...", {
+      position: "top-center",
+    });
+    const getMessage = async () => {
+      try {
+        const res = await axios.get("https://gss-wine.vercel.app/message/messagePull");
+        toast.success("Loaded...", { duration: 3000, id: toastID });
+        setMessageList(res.data);
+        console.log(res.data);
+      } catch (error) {
+        console.log("error", error);
+        toast.error("Failed to fetch", { id: toastID });
+      } finally {
+        toast.remove(toastID);
+      }
+    };
+    getMessage();
+  }, []);
+  console.log(message_list);
   return (
     <>
       <div className="dropdown dropdown-end">
+        <Toaster />
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
           <div className="indicator">
             <IoNotificationsCircleSharp className=" text-yellow-300  h-9 w-9" />

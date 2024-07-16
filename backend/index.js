@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 import messagePushRoute from "./route/message.route.js";
+import messagePullRoute from "./route/message.route.js";
 
 const app = express();
 app.use(cors());
@@ -26,7 +27,7 @@ app.get("/", (req, res) => {
 });
 // define route
 
-app.use("/messagePush", messagePushRoute);
+app.use("/message", messagePushRoute);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);

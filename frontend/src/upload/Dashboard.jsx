@@ -24,7 +24,7 @@ const Dashboard = () => {
     const toastId = toast.loading("Uploading...");
     setSignUpFlag(true);
     await axios
-      .post("https://gss-wine.vercel.app/messagePush", messageData)
+      .post("https://gss-wine.vercel.app/message/messagePush", messageData)
       .then((res) => {
         if (res.data) {
           toast.success("Notification was updated ", { id: toastId });
