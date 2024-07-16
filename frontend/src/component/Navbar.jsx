@@ -1,6 +1,7 @@
 import React from "react";
 import { IoNotificationsCircleSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import Notification from "./Notification";
 
 const Navbar = () => {
   const navItems = (
@@ -52,25 +53,7 @@ const Navbar = () => {
           <ul className="menu space-x-8 menu-horizontal px-1">{navItems}</ul>
         </div>
         <div className="flex-none space-x-4">
-          <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-              <div className="indicator">
-                <IoNotificationsCircleSharp className=" text-yellow-300  h-9 w-9" />
-                <span className="badge badge-sm indicator-item">2+</span>
-              </div>
-            </div>
-            <div tabIndex={0} className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
-              <div className="card-body rounded-md  bg-gray-50">
-                <span className="text-lg font-bold">Notification</span>
-                <div>
-                  <div className=" p-2 rounded-md bg-gray-100 hover:bg-gray-200">Website will be lunched soon</div>
-                </div>
-                <div>
-                  <div className=" p-2 rounded-md bg-gray-100 hover:bg-gray-200">Result page coming soon</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Notification />
           <Link to={"/contact"}>
             <button className="btn  hidden md:block bg-emerald-600 hover:bg-emerald-700 transition-all border-none text-white ">Contact Us</button>
           </Link>
