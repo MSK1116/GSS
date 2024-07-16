@@ -37,13 +37,13 @@ const Notification = () => {
           <div className="card-body rounded-md  bg-gray-50 ">
             <span className="text-lg font-bold">Notification</span>
 
-            {message_list > 0
+            {message_list
               ? message_list.map((message_list) => (
                   <div key={message_list._id}>
                     <div onClick={() => document.getElementById(message_list._id + 1).showModal()} className=" p-2 rounded-md bg-gray-100 hover:bg-gray-200">
                       <span>{message_list.time}</span>
                       <span className="font-bold line-clamp-1">{message_list.title}</span>
-                      <span className="line-camp-1">{message_list.body}</span>
+                      <span className="line-clamp-1">{message_list.body}</span>
                     </div>
                     <dialog id={message_list._id + 1} className="modal max-w-screen-2xl ">
                       <div className="modal-box bg-gray-200">
