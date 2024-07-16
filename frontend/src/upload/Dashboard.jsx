@@ -8,21 +8,27 @@ import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 
 const Dashboard = () => {
+  const date = new Date();
+  const formattedDate = date.toLocaleDateString();
+  const formattedTime = date.toLocaleTimeString();
+  const time = `${formattedDate} ${formattedTime}`;
+
   const [jsondata, setJsonData] = useState(null);
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const [signUpFlag, setSignUpFlag] = useState(false);
+  const [pushFlag, setPushFlag] = useState(false);
   const onSubmit = async (data) => {
     const messageData = {
       title: data.title,
       body: data.body,
       publisher: data.publisher,
+      time: time,
     };
     const toastId = toast.loading("Uploading...");
-    setSignUpFlag(true);
+    setPushFlag(true);
     await axios
       .post("https://gss-wine.vercel.app/message/messagePush", messageData)
       .then((res) => {
@@ -95,7 +101,7 @@ const Dashboard = () => {
                     className=" w-full bg-white rounded  p-2 text-body-color text-base   border border-[f0f0f0]  outline-none focus-visible:shadow-none focus:border-primary"></input>
                   {errors.publisher && <span className="text-sm text-red-500 ">This field is required.</span>}
                 </div>
-                <button className="btn w-24 text-white btn-success m-auto" type="submit">
+                <button className="btn w-24 text-white btn-success m-auto" type="submit" disabled={pushFlag}>
                   Push
                 </button>
               </form>

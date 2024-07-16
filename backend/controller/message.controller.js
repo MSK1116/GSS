@@ -1,13 +1,9 @@
 import Message from "../model/message.model.js";
 
 export const messagePush = async (req, res) => {
-  const date = new Date();
-  const formattedDate = date.toLocaleDateString();
-  const formattedTime = date.toLocaleTimeString();
-  const time = `${formattedDate} ${formattedTime}`;
   try {
-    const { title, body, publisher } = req.body;
-    if (!title || !body || !publisher) {
+    const { title, body, publisher, time } = req.body;
+    if (!title || !body || !publisher || !time) {
       return res.status(400).json({ message: "All field are required" });
     }
 
