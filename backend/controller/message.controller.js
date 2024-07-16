@@ -25,30 +25,14 @@ export const messagePush = async (req, res) => {
   }
 };
 
+import Notesxi from "../model/notesxi.model.js";
+
 export const messagePull = async (req, res) => {
   try {
-    const message = await Message.find().sort({ time: -1 });
-
-    if (message > 0) {
-      const formattedMessages = message.map((message) => ({
-        _id: message._id,
-        title: message.title,
-        body: message.body,
-        time: message.time,
-        publisher: message.publisher,
-      }));
-      res.status(200).json({
-        message: "Notification Loaded.",
-        message: formattedMessages,
-      });
-      console.log(formattedMessages, "formatted message");
-    } else {
-      res.status(404).json({ message: "No messages found" });
-    }
+    const message = await Message.find();
+    res.status(202).json(message);
   } catch (error) {
     console.error("Notification failed to load:", error.message);
-    if (!res.headersSent) {
-      res.status(500).json({ message: "Internal server error" });
-    }
+    res.status(500).json(error);
   }
 };
