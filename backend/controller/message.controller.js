@@ -27,10 +27,10 @@ export const messagePush = async (req, res) => {
 
 export const messagePull = async (req, res) => {
   try {
-    const messages = await Message.find().sort({ time: -1 });
+    const message = await Message.find().sort({ time: -1 });
 
-    if (messages > 0) {
-      const formattedMessages = messages.map((message) => ({
+    if (message > 0) {
+      const formattedMessages = message.map((message) => ({
         _id: message._id,
         title: message.title,
         body: message.body,
@@ -41,7 +41,7 @@ export const messagePull = async (req, res) => {
         message: "Notification Loaded.",
         message: formattedMessages,
       });
-      console.log(formattedMessages);
+      console.log(formattedMessages, "formatted message");
     } else {
       res.status(404).json({ message: "No messages found" });
     }
