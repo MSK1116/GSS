@@ -29,11 +29,11 @@ const Notification = () => {
         <Toaster />
         <div onClick={handleClik} tabIndex={0} role="button" className="btn btn-ghost btn-circle">
           <div className="indicator">
-            <IoNotificationsCircleSharp className=" text-yellow-300  h-9 w-9" />
-            <span className="badge badge-sm indicator-item">2+</span>
+            <IoNotificationsCircleSharp className="w-7 h-7" />
+            <span className="badge badge-xs badge-warning indicator-item"></span>
           </div>
         </div>
-        <div tabIndex={0} className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-96 shadow">
+        <div tabIndex={0} className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-56 md:w-96 shadow">
           <div className="card-body rounded-md  bg-gray-50 ">
             <span className="text-lg font-bold">Notification</span>
 
