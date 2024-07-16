@@ -25,8 +25,6 @@ export const messagePush = async (req, res) => {
   }
 };
 
-import Notesxi from "../model/notesxi.model.js";
-
 export const messagePull = async (req, res) => {
   try {
     const message = await Message.find();
