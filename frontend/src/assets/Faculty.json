@@ -112,9 +112,9 @@
     "title": "Rina Subedi",
     "post": "Teacher",
     "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/dev.jpg",
-    "slider": "false"
+    "description": "It is me Rina Subedi and I'm proud to have been teaching in Gamvir Samudra Setu Secondary school  since last 15 years .This is  public school has a good infrastructure and learning environment to meet the diverse learning needs of students with diversity",
+    "photo": "IMG_DIR/rina.jpg",
+    "slider": "true"
   },
   {
     "id": 15,
@@ -158,7 +158,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/Prakriti.jpg",
     "slider": "false"
   },
   {
@@ -401,7 +401,7 @@
     "post": "Assistnat Staff",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/dev.jpg",
+    "photo": "IMG_DIR/rama.jpeg",
     "slider": "false"
   },
   {
