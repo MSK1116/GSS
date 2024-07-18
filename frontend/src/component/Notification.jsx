@@ -37,7 +37,7 @@ const Notification = () => {
           <div className="card-body rounded-md  bg-gray-50 ">
             <span className="text-lg font-bold">Notification</span>
 
-            {message_list > 0
+            {message_list.length > 0
               ? message_list.map((message_list) => (
                   <div key={message_list._id}>
                     <div onClick={() => document.getElementById(message_list._id + 1).showModal()} className=" p-2 rounded-md bg-gray-100 hover:bg-gray-200">
