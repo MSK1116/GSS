@@ -35,6 +35,7 @@ const Dashboard = () => {
         if (res.data) {
           toast.success("Notification was updated ", { id: toastId });
           console.log("Notification was updated");
+          setPushFlag(false);
         }
       })
       .catch((err) => {
