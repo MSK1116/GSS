@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { IoNotificationsCircleSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 const Notification = () => {
@@ -62,6 +63,7 @@ const Notification = () => {
                   </div>
                 ))
               : "No new notification"}
+            {message_list.length > 0 ? <Link to={"/notification"}>See all</Link> : ""}
           </div>
         </div>
       </div>

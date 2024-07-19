@@ -11,6 +11,7 @@ import Convert from "./component/Convert.jsx";
 import Login from "./upload/Login";
 import { useAuth } from "./auth/Authprovider.jsx";
 import Dashboard from "./upload/Dashboard";
+import Notification_page from "./component/Notification_page.jsx";
 
 function App() {
   const [authUser, setAuthUser] = useAuth();
@@ -27,6 +28,7 @@ function App() {
         <Route path="/apply" element={<Apply />} />
         <Route path="/convert" element={<Convert />} />
         <Route path="/staff" element={<Login />} />
+        <Route path="/notification" element={<Notification_page />} />
         <Route path="/abc123" element={authUser ? <Dashboard /> : <Login />} />
       </Routes>
     </>
