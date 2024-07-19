@@ -7,6 +7,7 @@ const Notification = () => {
   const [message_list, setMessageList] = useState([]);
 
   const getMessage = async () => {
+    toast.remove();
     const toastID = toast.loading("Loading...");
     try {
       const res = await axios.get("https://gss-wine.vercel.app/message/messagePull");
