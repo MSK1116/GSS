@@ -86,7 +86,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/desh bandhu dahal.jpg",
     "slider": "false"
   },
   {
@@ -149,7 +149,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Rita Lama.jpeg",
     "slider": "false"
   },
   {
@@ -199,11 +199,11 @@
   },
   {
     "id": 24,
-    "title": "Laxmi Subedi",
+    "title": "Laxmi Lamsal",
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Laxmi Lamsal.jpg",
     "slider": "false"
   },
   {
@@ -380,10 +380,10 @@
   {
     "id": 44,
     "title": "Karishma K.C",
-    "post": "Staff",
-    "email": "",
+    "post": "Accountant",
+    "email": "karishmakc23@gmail.com",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/KarishmaSubedi.jpg",
     "slider": "false"
   },
   {
