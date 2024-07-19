@@ -53,7 +53,7 @@ const Dashboard = () => {
         <h1 className="mt-7 text-2xl"> Welcome Back!</h1>
 
         <div className=" max-w-screen-2xl mt-5 p-8 bg-gray-50 gap-2 flex flex-col md:flex-row">
-          <div className="w-1/2 rounded-md border p-2 ">
+          <div className="md:w-1/2 rounded-md border p-2 ">
             <h1 className=" text-xl text-red-500 font-bold">Notification Handler</h1>
             <h1>
               <span>Date:</span> {new Date().getMonth() + 1} / {new Date().getDate()} / {new Date().getFullYear()}
@@ -108,7 +108,7 @@ const Dashboard = () => {
               </form>
             </div>
           </div>
-          <div className="w-1/2 rounded-md border p-2">
+          <div className="md:w-1/2 rounded-md border p-2">
             <h1 className=" text-xl text-red-500 font-bold">Result Handler</h1>
             <h1>
               <span>Date:</span> {new Date().getMonth() + 1} / {new Date().getDate()} / {new Date().getFullYear()}
