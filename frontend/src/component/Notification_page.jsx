@@ -28,7 +28,7 @@ const Notification_page = () => {
   return (
     <>
       <Navbar />
-      <div className=" p-8 md:mt-10 md:h-screen ">
+      <div className=" p-8 md:mt-10 md:h-screen bg-gray-50">
         {message_list.length > 0 ? (
           <div className="bg-gray-50 p-8">
             {message_list.map((message_list) => (
