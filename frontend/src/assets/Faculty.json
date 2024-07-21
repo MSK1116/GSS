@@ -140,7 +140,7 @@
     "post": "ECD Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/ramilasubedi.jpeg",
+    "photo": "IMG_DIR/ramita.jpeg",
     "slider": "false"
   },
   {
@@ -167,7 +167,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/sannani.jpeg",
     "slider": "false"
   },
   {
@@ -332,15 +332,7 @@
     "photo": "IMG_DIR/",
     "slider": "false"
   },
-  {
-    "id": 39,
-    "title": "Ritu B.K",
-    "post": "Assistant Teacher",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false"
-  },
+
   {
     "id": 40,
     "title": "Menuka Tamang",
@@ -352,31 +344,14 @@
   },
   {
     "id": 41,
-    "title": "Soni Mahar",
+    "title": "Ramia Subedi",
     "post": "Assistant Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/ramilasubedi.jpeg",
     "slider": "false"
   },
-  {
-    "id": 42,
-    "title": "Sanish Nepali",
-    "post": "Assistant Teacher",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false"
-  },
-  {
-    "id": 43,
-    "title": "Ayushri Chaudhary",
-    "post": "School Nurse",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false"
-  },
+
   {
     "id": 44,
     "title": "Karishma K.C",
@@ -473,16 +448,7 @@
     "slider": "false",
     "dept": "eng"
   },
-  {
-    "id": 54,
-    "title": "Sudip Bista",
-    "post": "Teacher",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false",
-    "dept": "eng"
-  },
+
   {
     "id": 55,
     "title": "Sankar Nupane",
@@ -503,16 +469,7 @@
     "slider": "false",
     "dept": "eng"
   },
-  {
-    "id": 57,
-    "title": "Madan Subedi",
-    "post": "Teacher",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false",
-    "dept": "eng"
-  },
+
   {
     "id": 58,
     "title": "Lalita Subedi",
@@ -553,16 +510,7 @@
     "slider": "false",
     "dept": "eng"
   },
-  {
-    "id": 62,
-    "title": "Ashmita Shrestha",
-    "post": "Teacher",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false",
-    "dept": "eng"
-  },
+
   {
     "id": 63,
     "title": "Anil Mandal",
