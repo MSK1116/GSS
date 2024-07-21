@@ -5,7 +5,7 @@
     "description": "The Diploma in Civil Engineering is a comprehensive 2-year program designed to provide students with foundational knowledge and practical skills in civil engineering. Accredited by CTEVT, this program covers various aspects of civil engineering, including construction, structural analysis, and environmental engineering.",
     "info1": "3 Years",
     "info2": "CTEVT",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/450864860_1003136048265661_3378893550094198492_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Esne3IME9vAQ7kNvgHQI_Je&_nc_ht=scontent.fktm21-1.fna&oh=00_AYAD0VcsJxVCy981XFqOPTOfXL8NKFHao_UPyjZqomOggA&oe=669921CE",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/diploma"
   },
   {
@@ -14,7 +14,7 @@
     "description": "The Diploma in Geomatics Engineering is a specialized 2-year program offered by CTEVT. This course focuses on the collection, analysis, and interpretation of geospatial data. Students will learn about surveying, remote sensing, GIS (Geographic Information Systems), and cartography, preparing them for careers in geomatics engineering.",
     "info1": "3 Years",
     "info2": "CTEVT",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/450094081_998770605368872_598287783043710059_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ArpBXxYe_pkQ7kNvgEA1IAC&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBzmNY8k5h2OdGRvErxWN0Rrzw2qLPHca9e5VU1eQ_Mpg&oe=669910BE",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/diploma"
   },
   {
@@ -23,7 +23,7 @@
     "description": " The Early Childhood Development (ECD) program is designed for nursery and UKG (Upper Kindergarten) levels, focusing on the holistic development of young children. This program emphasizes the importance of early education in cognitive, social, and emotional development, providing a nurturing environment for young learners.",
     "info1": "Nursery ",
     "info2": "UKG",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/449381061_993899542522645_1921800627396313937_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vPIEx505YtQQ7kNvgG5iz4D&_nc_ht=scontent.fktm21-1.fna&oh=00_AYAW-w0skqWxJg0egz67gRyg-5cuXcSI1dyrz-Vpp-ZexA&oe=66992A16",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/primary"
   },
   {
@@ -32,7 +32,7 @@
     "description": "The Secondary Education Examination (SEE) program spans from Grade 1 to Grade 10, providing students with a solid foundation in various subjects. This program prepares students for their SEE, ensuring they have the necessary knowledge and skills to excel in their secondary education.",
     "info1": "Grade 1 ",
     "info2": "Grade 10",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/449381061_993899542522645_1921800627396313937_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vPIEx505YtQQ7kNvgG5iz4D&_nc_ht=scontent.fktm21-1.fna&oh=00_AYAW-w0skqWxJg0egz67gRyg-5cuXcSI1dyrz-Vpp-ZexA&oe=66992A16",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/primary"
   },
   {
@@ -41,7 +41,7 @@
     "description": "The Computer Science program, offered at the NEB +2 level, provides students with a comprehensive understanding of computer science principles. This program covers programming, data structures, algorithms, and software development, equipping students with the skills needed for further studies or careers in technology.",
     "info1": "NEB",
     "info2": "+2",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/slc"
   },
   {
@@ -50,7 +50,7 @@
     "description": " The Hotel Management program, offered at the NEB +2 level, is designed to provide students with knowledge and skills in the hospitality industry. This program covers various aspects of hotel management, including front office operations, housekeeping, food and beverage service, and event management, preparing students for careers in the hospitality sector.",
     "info1": "NEB",
     "info2": "+2",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/slc"
   },
   {
@@ -59,7 +59,7 @@
     "description": "The Law program at the NEB +2 level provides students with a foundational understanding of legal principles and practices. This program covers various aspects of law, including civil, criminal, and constitutional law, equipping students with the knowledge needed for further legal studies or careers in the legal field.",
     "info1": "NEB",
     "info2": "+2",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/slc"
   },
   {
@@ -68,7 +68,7 @@
     "description": "The Education program at the NEB +2 level is designed to prepare students for careers in teaching and education management. This program covers educational psychology, pedagogy, curriculum development, and classroom management, providing students with the skills and knowledge required for further studies or careers in the education sector.",
     "info1": "NEB",
     "info2": "+2",
-    "thumb": "https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/448899161_1000734175172515_3268279288269324416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UYCj0w1nYE0Q7kNvgFlvZOD&_nc_ht=scontent.fktm21-1.fna&oh=00_AYBxBenNN-rptUv3lu1JyxfN4vbiktrWoSbxvvsotSoaHQ&oe=6699072B",
+    "thumb": "IMG_DIR/Gamvir_poster_for_admission.jpg",
     "link": "/slc"
   }
 ]
