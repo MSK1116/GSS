@@ -529,5 +529,15 @@
     "photo": "IMG_DIR/Anil.jpeg",
     "slider": "false",
     "dept": "eng"
+  },
+  {
+    "id": 630,
+    "title": "Netra Joshi",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "IMG_DIR/Netra Joshi.jpeg",
+    "slider": "false",
+    "dept": "eng"
   }
 ]
