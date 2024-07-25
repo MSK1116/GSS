@@ -59,7 +59,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Kabindra.jpeg",
     "slider": "false"
   },
   {
@@ -171,6 +171,15 @@
     "slider": "false"
   },
   {
+    "id": 200,
+    "title": "Ayushree Chaudhari",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "IMG_DIR/Ayushree.jpeg",
+    "slider": "false"
+  },
+  {
     "id": 21,
     "title": "Sabita Timalsina",
     "post": "Teacher",
@@ -185,7 +194,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Binita.jpeg",
     "slider": "false"
   },
   {
@@ -266,16 +275,16 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Sangam.jpeg",
     "slider": "false"
   },
   {
     "id": 32,
-    "title": "Shayam Roka",
+    "title": "Shyam Roka",
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Shyam.jpeg",
     "slider": "false"
   },
   {
@@ -284,7 +293,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/ram.jpeg",
     "slider": "false"
   },
   {
@@ -293,7 +302,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Sujita.jpeg",
     "slider": "false"
   },
   {
@@ -404,7 +413,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Dan.jpeg",
     "slider": "false",
     "dept": "eng"
   },
@@ -434,7 +443,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Rajan.jpeg",
     "slider": "false",
     "dept": "eng"
   },
@@ -451,21 +460,21 @@
 
   {
     "id": 55,
-    "title": "Sankar Nupane",
+    "title": "Shankar Nupane",
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Shankar.jpeg",
     "slider": "false",
     "dept": "eng"
   },
   {
     "id": 56,
-    "title": "Shobha Pandit",
+    "title": "Shova Pandit",
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Shova.jpeg",
     "slider": "false",
     "dept": "eng"
   },
@@ -476,17 +485,17 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Lalita.jpeg",
     "slider": "false",
     "dept": "eng"
   },
   {
     "id": 59,
     "title": "Binod Maharjan",
-    "post": "Teacher",
+    "post": "CS Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Binod.jpeg",
     "slider": "false",
     "dept": "eng"
   },
@@ -502,11 +511,11 @@
   },
   {
     "id": 61,
-    "title": "Bibek Dahal",
+    "title": "Bibash Dahal",
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/Bibash.jpeg",
     "slider": "false",
     "dept": "eng"
   },
@@ -517,7 +526,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "/IMG_DIR/",
+    "photo": "IMG_DIR/Anil.jpeg",
     "slider": "false",
     "dept": "eng"
   }
