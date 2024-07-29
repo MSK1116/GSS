@@ -104,7 +104,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/arun.jpg",
     "slider": "false"
   },
   {
@@ -185,7 +185,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/sabita.jpeg",
     "slider": "false"
   },
   {
@@ -221,7 +221,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/gita.jpeg",
     "slider": "false"
   },
   {
@@ -312,6 +312,15 @@
     "email": "",
     "description": "I'm a good teacher",
     "photo": "IMG_DIR/",
+    "slider": "false"
+  },
+  {
+    "id": 350,
+    "title": "ReekhiMaya Rai",
+    "post": "Teacher",
+    "email": "",
+    "description": "I'm a good teacher",
+    "photo": "IMG_DIR/ReekhiMaya.jpeg",
     "slider": "false"
   },
   {
