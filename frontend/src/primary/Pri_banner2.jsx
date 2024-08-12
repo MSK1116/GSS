@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HiAcademicCap } from "react-icons/hi";
 import { MdOutlineSportsTennis } from "react-icons/md";
 import { FaHandsHelping } from "react-icons/fa";
 import { FaBuilding } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Pri_banner2 = () => {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  });
   return (
     <>
       <section className="bg-gray-50">
         <div className="mx-auto max-w-screen-xl px-4 py-7  lg:flex  lg:items-center">
           <div className="mx-auto max-w-xl text-center">
-            <h1 className="text-3xl font-extrabold sm:text-5xl">
+            <h1 data-aos="fade-down" data-aos-duration="900" className="text-3xl font-extrabold sm:text-5xl">
               <strong className="font-extrabold text-red-700 sm:block"> Why GSS ?</strong>
             </h1>
 
-            <p className="mt-4 sm:text-xl/relaxed">
+            <p data-aos="fade-down" data-aos-duration="1000" className="mt-4 sm:text-xl/relaxed">
               At GSS, we are dedicated to providing a holistic education that fosters academic excellence, personal growth, and social responsibility. Our well-rounded curriculum is designed to nurture students' intellectual, physical, and emotional
               development.
             </p>
@@ -23,8 +29,8 @@ const Pri_banner2 = () => {
         <div className="container px-6 py-10 mx-auto">
           <div className="lg:flex lg:items-center">
             <div className="w-full grid grid-cols-2 place-content-evenly gap-10 ">
-              <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+              <div data-aos="fade-right" data-aos-duration="1000" className="md:flex md:items-start md:-mx-4">
+                <span data-aos="zoom-in" data-aos-delay="400" className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
                   <MdOutlineSportsTennis className="w-6 h-6" />
                 </span>
 
@@ -35,8 +41,8 @@ const Pri_banner2 = () => {
                 </div>
               </div>
 
-              <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+              <div data-aos="fade-left" data-aos-duration="1000" className="md:flex md:items-start md:-mx-4">
+                <span data-aos="zoom-in" data-aos-delay="400" className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
                   <FaHandsHelping className="w-6 h-6" />
                 </span>
 
@@ -47,8 +53,8 @@ const Pri_banner2 = () => {
                 </div>
               </div>
 
-              <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+              <div data-aos="fade-right" data-aos-duration="1000" className="md:flex md:items-start md:-mx-4">
+                <span data-aos="zoom-in" data-aos-delay="400" className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
                   <FaBuilding className="w-6 h-6" />
                 </span>
 
@@ -59,8 +65,8 @@ const Pri_banner2 = () => {
                 </div>
               </div>
 
-              <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+              <div data-aos="fade-left" data-aos-duration="1000" className="md:flex md:items-start md:-mx-4">
+                <span data-aos="zoom-in" data-aos-delay="400" className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
                   <HiAcademicCap className="w-6 h-6" />
                 </span>
 
