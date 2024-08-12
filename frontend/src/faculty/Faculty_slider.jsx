@@ -2,14 +2,8 @@ import React, { useEffect } from "react";
 import KeenSlider from "https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm";
 import Faculty_list from "../assets/Faculty.json";
 import Faculty_slider_card from "../component/Faculty_slider_card";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Faculty_slider = () => {
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  });
   const sliderFac = Faculty_list.filter((data) => data.slider == "true");
 
   useEffect(() => {
@@ -54,7 +48,7 @@ const Faculty_slider = () => {
   }, []);
   return (
     <>
-      <section data-aos="zoom-out" className="bg-gray-50 p-8">
+      <section className="bg-gray-50 p-8">
         <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
           <h1 className="text-3xl font-bold text-red-500 mb-4">Our Faculty</h1>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
