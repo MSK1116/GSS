@@ -3,7 +3,7 @@ import React from "react";
 const Sticker = () => {
   return (
     <>
-      <div className="absolute md:-top-36 -top-28 md:-left-28 -left-24 overflow-hidden  z-0   ">
+      <div data-aos="zoom-in-right" className="absolute md:-top-36 -top-28 md:-left-28 -left-24 overflow-hidden  z-0   ">
         <svg className="md:w-96 w-80 z-0 h-full object-fill opacity-70 md:opacity-85 fill-yellow-400 " viewBox="0 0 500 670" xmlns="http://www.w3.org/2000/svg">
           <ellipse
             style={{

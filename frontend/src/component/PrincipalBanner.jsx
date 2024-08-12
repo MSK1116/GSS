@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ReactTyped } from "react-typed";
-import NiraMam from "../../public/IMG_DIR/NiraShJPEG.jpg";
+import NiraMam from "/IMG_DIR/NiraShJPEG.jpg";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const PrincipalBanner = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <hr></hr>
@@ -15,13 +20,15 @@ const PrincipalBanner = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="my-6 mx-auto h-10 w-10 animate-bounce rounded-full bg-white p-2 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
                 </svg>
-                <div className="bg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
+                <div data-aos="zoom-in-up" className="bg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
                   <img className=" hover:scale-105 transition-all duration-1000 rounded-md" src={NiraMam}></img>
                 </div>
               </div>
               <div className="relative">
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
-                  <p className="flex text-sm uppercase md:mb-3">Listen to our principal</p>
+                  <p data-aos="zoom-in-right" className="flex text-sm uppercase md:mb-3">
+                    Listen to our principal
+                  </p>
                   <p className="md:hidden font-extrabold mb-8 md:mb-3">Nira Kumari Shrestha-2080</p>
                   <h2 className="mb-6 max-w-lg font-light leading-snug tracking-tight text-3xl sm:leading-snug">
                     Every child deserves the opportunity
@@ -32,13 +39,13 @@ const PrincipalBanner = () => {
                       </span>
                     </span>
                   </h2>
-                  <p className="text-base text-gray-700">
+                  <p data-aos="fade-up" className="text-base text-gray-700">
                     At our school, we believe in creating a nurturing environment where every student is encouraged to discover their passions, excel academically, and grow into confident, responsible individuals prepared to make a positive impact in
                     our community and beyond.
                   </p>
                   <div className="mt-10 flex flex-col items-center md:flex-row">
                     <Link to="/faculty">
-                      <span className="group inline-flex items-center font-semibold text-g1">
+                      <span data-aos="fade-up" data-aos-delay="200" className="group inline-flex items-center font-semibold text-g1">
                         Know about faculty
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-4 h-6 w-6 transition-transform group-hover:translate-x-2 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
