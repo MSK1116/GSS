@@ -13,7 +13,7 @@ const Faculty2 = () => {
   const cardFac1 = List.filter((data) => data.slider != "true" && data.dept == "eng");
   return (
     <>
-      <section data-aos="zoom-in" className="max-w-screen-2xl   bg-gray-50 mx-auto p-8 sm:px-6 lg:px-4 py-12 ">
+      <section data-aos="zoom-in" className="max-w-screen-2xl bg-gray-50 mx-auto p-8 sm:px-6 lg:px-4 py-12 ">
         <div className="text-center pb-12">
           <h2 data-aos="fade-down" data-aos-duration="600" className="text-base font-bold text-indigo-600">
             They are ready to give their time to you!

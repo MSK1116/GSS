@@ -48,7 +48,7 @@ const Faculty_slider = () => {
   }, []);
   return (
     <>
-      <section className="bg-gray-50 p-8 h-screen">
+      <section className="bg-gray-50 p-8 ">
         <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
           <h1 className="text-3xl font-bold text-red-500 mb-4">Our Faculty</h1>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
