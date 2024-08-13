@@ -1,5 +1,6 @@
 import React from "react";
-import img1 from "../../public/IMG_DIR/Gamvir_poster_for_admission.jpg";
+import img1 from "/IMG_DIR/Gamvir_poster_for_admission.jpg";
+import img2 from "/IMG_DIR/amir.jpg";
 
 const Diploma_Banner2 = () => {
   return (
@@ -12,7 +13,7 @@ const Diploma_Banner2 = () => {
 
           <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-              <img alt="photo" src={img1} className="absolute inset-0 h-full w-full object-cover" />
+              <img alt="photo" src={img2} className="absolute inset-0 h-full w-full object-cover" />
             </div>
 
             <div className="lg:py-16">
