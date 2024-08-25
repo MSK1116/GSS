@@ -122,7 +122,7 @@
     "post": "Teacher",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/sushila.jpeg",
     "slider": "false"
   },
   {
@@ -197,15 +197,7 @@
     "photo": "IMG_DIR/Binita.jpeg",
     "slider": "false"
   },
-  {
-    "id": 23,
-    "title": "Rikhimaya Rai",
-    "post": "Teacher",
-    "email": "",
-    "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
-    "slider": "false"
-  },
+
   {
     "id": 24,
     "title": "Laxmi Lamsal",
@@ -403,7 +395,7 @@
     "post": "School Gaurd",
     "email": "",
     "description": "I'm a good teacher",
-    "photo": "IMG_DIR/",
+    "photo": "IMG_DIR/trithraj.jpeg",
     "slider": "false"
   },
   {

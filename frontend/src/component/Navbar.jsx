@@ -2,13 +2,19 @@ import React from "react";
 import { IoNotificationsCircleSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Notification from "./Notification";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const navItems = (
     <>
-      <Link to="/">
-        <li>Home</li>
-      </Link>
+      <li
+        onClick={() => {
+          navigate("/");
+        }}>
+        Home
+      </li>
+
       <Link to="/primary">
         <li>ECD & School</li>
       </Link>
@@ -39,7 +45,7 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabIndex={0} className="menu menu-sm gap-2 dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabIndex={0} className="menu cursor-pointer menu-sm gap-2 dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             {navItems}
             <Link to={"/apply"}>
               <li>Apply</li>
@@ -50,7 +56,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-center hidden mr-5 lg:flex">
-          <ul className="menu space-x-8 menu-horizontal px-1">{navItems}</ul>
+          <ul className="menu cursor-pointer space-x-8 menu-horizontal px-1">{navItems}</ul>
         </div>
         <div className="flex-none space-x-4">
           <Notification />

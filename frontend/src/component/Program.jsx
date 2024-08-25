@@ -2,13 +2,8 @@ import React, { useEffect } from "react";
 import ProgramList from "../assets/Program.json";
 import Programcard from "./Programcard";
 import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Program = () => {
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  });
   return (
     <>
       <section className="max-w-screen-2xl p-8 bg-gray-50  ">

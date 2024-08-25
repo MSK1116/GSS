@@ -3,7 +3,6 @@ import { ReactTyped } from "react-typed";
 import NiraMam from "/IMG_DIR/NiraShJPEG.jpg";
 import { Link } from "react-router-dom";
 import Aos from "aos";
-import "aos/dist/aos.css";
 
 const PrincipalBanner = () => {
   useEffect(() => {

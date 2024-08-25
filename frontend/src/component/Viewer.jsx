@@ -7,13 +7,8 @@ import img1 from "/IMG_DIR/GamvirFull1.jpg";
 import img3 from "/IMG_DIR/child1.jpeg";
 import { Link } from "react-router-dom";
 import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Viewer = () => {
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  });
   return (
     <>
       <section className="max-w-screen-2xl overflow-hidden h-screen md:mt-10 mt-14 p-8 bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">

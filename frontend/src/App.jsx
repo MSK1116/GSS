@@ -12,8 +12,18 @@ import Login from "./upload/Login";
 import { useAuth } from "./auth/Authprovider.jsx";
 import Dashboard from "./upload/Dashboard";
 import Notification_page from "./component/Notification_page.jsx";
+import useProgressBar from "./component/Progressbar.jsx";
+
+import "aos/dist/aos.css";
+import Aos from "aos";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  });
+  useProgressBar();
   const [authUser, setAuthUser] = useAuth();
   return (
     <>

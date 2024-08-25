@@ -2,13 +2,8 @@ import React, { useEffect } from "react";
 import img1 from "/IMG_DIR/child2.jpeg";
 import img2 from "/IMG_DIR/child3.jpeg";
 import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Pri_banner4 = () => {
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  });
   return (
     <>
       <section className=" bg-gray-50">
@@ -21,6 +16,7 @@ const Pri_banner4 = () => {
                 <h2 data-aos="fade-down" data-aos-duration="600" className="text-2xl font-bold sm:text-3xl">
                   Eligibility Criteria
                 </h2>
+
                 <h1 data-aos="fade-down" data-aos-delay="300">
                   To be eligible for a diploma in engineering course in Nepal
                 </h1>

@@ -4,13 +4,8 @@ import { MdOutlineSportsTennis } from "react-icons/md";
 import { FaHandsHelping } from "react-icons/fa";
 import { FaBuilding } from "react-icons/fa";
 import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Pri_banner2 = () => {
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  });
   return (
     <>
       <section className="bg-gray-50">
